@@ -29,13 +29,13 @@
 
 I had two goals when I originally started this project:
 1. Demonstrate how to make a "Twitter-esque" social media application.
-    - A lot of people underestimate the amount of time and work involved making a social media application.
+    - A lot of people underestimate the amount of time and work involved in making a social media application.
     - There's a lot of confusion around the tech stack consisting of: client side code, back-end code, a database, and a web server of some kind.
     - I wanted to shine a light on the above processes and the technology involved.
 2. Create the application in as many languages as possible and use the project as a learning tool for myself.
     - I wrote the application with a mix of both `Objective-C` and `Swift` to demonstrate how a `Bridging Header` file allows the two languages to share classes/files between each other. 
     - I'm constantly learning new programming languages and frameworks. I wanted to build a "one stop shop" mobile application as a sandbox for all of these languages.
-    - I started building the application back-end with ``PHP`` because its easy to understand and learn for new developers. With that said, I'm going to try to utilize languages like ``Go`` and ``Node.js`` in the future; the multi-threading capabilties of these languages to significantly speed up server request & response processing makes them an obvious choice to work on next.
+    - I started building the application back-end with ``PHP`` because its easy to understand and learn for new developers. With that said, I'm going to try to utilize languages like ``Go`` and ``Node.js`` in the future; the multithreading capabilities of these languages to significantly speed up server request & response processing makes them an obvious choice to work on next.
     - I've realized now, by open-sourcing it, there's an opportunity for others to learn and contribute to it as well.
     
 *I know this is a lengthy README, but I want to explain every detail of the application for teaching/learning purposes. If this repo gains attraction, I will add a lot of these details into github-pages/documentation to remove clutter in the README. I appreciate it if you make it to the end!*
@@ -43,7 +43,7 @@ I had two goals when I originally started this project:
 ## Definitions:
 > A **Post** is any message posted to **Post.e** which contains text and/or attachments that may contain photos, videos, or a wide variety of file types. View the `extension` table in the database to view the supported file types. Tap the Post button to post the message to your profile.
 
-> **Posts** are the defacto form of communication in **Post.e** (similar to a [Tweet](https://help.twitter.com/en/resources/new-user-faq)).
+> **Posts** are the de facto form of communication in **Post.e** (similar to a [Tweet](https://help.twitter.com/en/resources/new-user-faq)).
 
 > **Posts** were inspired by the popular office supply product [Post-It Notes](https://en.wikipedia.org/wiki/Post-it_Note) due to their ability to easily communicate messages and attach them to surfaces. Virtual **Posts** in **Post.e** offer a similar functionality. 
 
@@ -60,9 +60,9 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 <img src="./images/phone_login-register.gif" width="19%" height="19%"/>
 
 - **Login & Register Screens:** 
-    - Single Sign-On (SSO) capabilties by using a combination of Swift's [UserDefaults](https://developer.apple.com/documentation/foundation/userdefaults) class and server side session handling using. Login once then then automatically login in the future without signing in (unless, of course, you logout of the app which kills the active session in the `session` table).
+    - Single Sign-On (SSO) capabilities by using a combination of Swift's [UserDefaults](https://developer.apple.com/documentation/foundation/userdefaults) class and server side session handling. Login once then then automatically login in the future without signing in (unless, of course, you log out of the app which kills the active session in the `session` table).
     - Username & Password validations.
-        - Checks for minimum password length, min/max user name length, missing or empty fields, matching paswords, and invalid characters using `REGEX` patterns. 
+        - Checks for minimum password length, min/max user name length, missing or empty fields, matching passwords, and invalid characters using `REGEX` patterns. 
     - Registering a User will create a new folder in the `server/uploads` folder using the new `Prof_ID` column value, which is an `AUTO_INCREMENT` column in the database (Posts work in this same fashion).
     - A unique `ID` is also generated using the `encoder.[language]` file using `Base 64 Encoding` to produce a unique external facing `ID`, stored in the database under the `Prof_Key` or `Post_Key` columns, that can be used to share Posts or Profiles in the future.
 ---
@@ -125,7 +125,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 - **Settings:** <br>
     - About section to view the current Post.e version number (derived from the `info.plist` value of `CFBundleShortVersionString`).
     - Open Source Libraries used to create `Post.e` and their related LICENSE files.
-    - Language Selection displays your current Device Language, available Languages supported by **Post.e** as well as a link to your Settings screen to change your device language (this will cause the application to re-start per Apple).
+    - Language Selection displays your current Device Language, available Languages supported by **Post.e** as well as a link to your Settings screen to change your device language (this will cause the application to restart per Apple).
     - Directory Settings displays your current folder directory used to select files for Post Attachments. Toggle the "Use Sample Directory" switch to use the sample files provided with **Post.e** by default or not.
     - Change your Password
     - Logout of the Application (which will also kill the session on the server).
@@ -133,7 +133,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
  <img src="./images/watch_support.gif" width="30%" height="30%"/>
 
 - **watchOS Support:** <br>
-    - Post to your Profile using a audio to text message or by typing in the text using the watch keyboard.
+    - Post to your Profile using a audio to text or by typing in the text using the watch keyboard.
 ---
 <img src="./images/phone_language_support.gif" width="19%" height="19%"/><img src="./images/watch_language_support.png" width="19%" height="19%"/>
 
@@ -161,7 +161,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - This will be used to connect to the database in all language variations. 
 - Ensure the proper ports are open for your `localhost` web server and database.
 - Run the **Post.e** app in `Xcode` located in the `mobile/ios` folder.
-    - Change your scehme to `Post.e-Test` to view Profile ID and Post ID values on the Tableview.
+    - Change your scheme to `Post.e-Test` to view Profile ID and Post ID values on the Tableview.
     - **Post.e** was tested with the following devices/simulators:
         - iPhone 14 Pro Max
         - iPhone 14 Plus
@@ -176,9 +176,9 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 - Click Login! Enjoy!
 
 **NOTE:** 
-- All of the demo accounts in the database uses this same password above. 
+- All of the demo accounts in the database use this same password above. 
 - Passwords are hashed using `SHA512` and `Salted`.
-- The demo accounts consist of quotes from famous individals that have inspired me through their works and words.
+- The demo accounts consist of quotes from famous individuals that have inspired me through their works and words.
 
 ## Programming Languages
 
@@ -204,7 +204,7 @@ Please reference the GitHub Project tab inside this Repo to get a good understan
 
 ## Future Plans
 
-- Besides making it compatible with more back-end languages, device constraints, and the tasks mentioned in the Backlog (i.e. Editing Posts, Push Notifications, etc.), I'm considering eventually hosting it on a server so its not constrainted to a local environment. This way, the demo will have a sandbox for everyone to interact in. I don't plan on making it an actual social media app - it was created as a learning tool for all, and I'd like to keep it that way.
+- Besides making it compatible with more back-end languages, device constraints, and the tasks mentioned in the Backlog (i.e. Editing Posts, Push Notifications, etc.), I'm considering eventually hosting it on a server so it's not constrained to a local environment. This way, the demo will have a sandbox for everyone to interact in. I don't plan on making it an actual social media app - it was created as a learning tool for all, and I'd like to keep it that way.
 - I designed the app icons and banners myself, however, as you all know - Design is a full time job and hard to balance with programming. A lot of the buttons and interactive icons were taken from free design websites. I'd like to eventually create and plug in custom designs into the application for a better user experience and flow.
 - I'd like to add more documentation around app navigation as well as an in-depth dive into the underlying technology used within the app. As I mentioned above, I want this to be used as a learning tool and solid documentation is a must have as a teaching tool. I will probably utilize github-pages for this.
 
@@ -214,7 +214,7 @@ I'm looking forward to working with others on this project over time (of course,
 
 Feel free to reach out to me using my email below if you have any questions or suggestions.
 
-Thanks and enjoy! (and I appreciate if you've read this far - you're a legend!)
+Thanks and enjoy! (and I appreciate it if you've read this far - you're a legend!)
 
 ## License
 **Post.e** is released under the **GNU GPLv3 License**. [See LICENSE](LICENSE) for details.
