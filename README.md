@@ -57,8 +57,10 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 
 ## Features:
 - **Login & Register Screens:** 
-<img src="./images/phone_login-register.gif" width="20%" height="20%"/><img>
+<img src="./images/phone_login-register.gif" width="20%" height="20%"/>
+
     - Single Sign-On (SSO) capabilties by using a combination of Swift's [UserDefaults](https://developer.apple.com/documentation/foundation/userdefaults) class and server side session handling using. Login once then then automatically login in the future without signing in (unless, of course, you logout of the app which kills the active session in the `session` table).
+    
     - Username & Password validations.
         - Checks for minimum password length, min/max user name length, missing or empty fields, matching paswords, and invalid characters using `REGEX` patterns. 
     - Registering a User will create a new folder in the `server/uploads` folder using the new `Prof_ID` column value, which is an `AUTO_INCREMENT` column in the database (Posts work in this same fashion).
