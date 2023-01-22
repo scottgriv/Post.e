@@ -6,7 +6,7 @@
 [![Email](https://img.shields.io/badge/email-contact_me-9cf?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
 [![BuyMeACoffee](https://img.shields.io/badge/donate-buy_me_a_coffee-yellow?style=for-the-badge&logo=buymeacoffee&color=ffdd00)](https://www.buymeacoffee.com/scottgriv)
 
-**Post.e** is a multi-language "how-to social media" application.
+**Post.e** is a multi-language "how to build" social media application.
 
 - [Background Story](#background-story)
 - [Definitions](#definitions)
@@ -29,14 +29,14 @@
 ## Background Story
 
 I had two goals when I originally started this project:
-1. Demonstrate how to make a "Twitter-esque" social media application.
+1. Demonstrate how to make a "*Twitter-esque*" social media application.
     - Many people underestimate the amount of time and work involved in making a social media application.
-    - There's a lot of confusion around the tech stack consisting of: client side code, back-end code, a database, and a web server of some kind.
+    - There's a lot of confusion around what the tech stack is comprised of (client-side code, back-end code, a database, and a web-server of some kind).
     - I wanted to shine a light on the above processes and the technology involved.
 2. Create the application in as many languages as possible and use the project as a learning tool for myself.
     - I wrote the application with a mix of both `Objective-C` and `Swift` to demonstrate how a `Bridging Header` file allows the two languages to share classes/files between each other. 
     - I'm constantly learning new programming languages and frameworks. I wanted to build a "one stop shop" mobile application as a sandbox for all of these languages.
-    - I started building the application back-end with ``PHP`` because its easy to understand and learn for new developers. With that said, I'm going to try to utilize languages like ``Go`` and ``Node.js`` in the future; the multithreading capabilities of these languages to significantly speed up server request & response processing makes them an obvious choice to work on next.
+    - I started building the application back-end with ``PHP`` because its easy for others to understand, in the future, I'm going to try to utilize languages like ``Go`` and ``Node.js``. The multithreading capabilities of these languages to significantly speed up server request & response processing makes them an obvious choice to work on next.
     - I've realized now, by open-sourcing it, there's an opportunity for others to learn and contribute to it as well.
     
 *I know this is a lengthy README, but I want to explain every detail of the application for teaching/learning purposes. If this repo gains traction, I will add a lot of these details into github-pages/documentation to remove clutter in the README. I appreciate it if you make it to the end!*
@@ -78,16 +78,16 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Sort Posts by *Newest*:
         - *Newest* consists of the most *recent* posts using the `Post_Created` date column in descending order.
         - `WHERE Post_Created DESC`.
-    - Sort Posts by *Home* experience:
+    - Sort Posts by the *Home* experience:
         - *Home* uses a number of columns to create a fun user feed experience using the below `WHERE` clause:
         - `WHERE Post_Love_Count DESC, Post_Pin_Count DESC, Post_Reply_Count, Post_Created DESC`.
-    - Click on the Profile name to segue to the users Profile screen.
+    - Click on the Profile name to segue to the user Profile screen.
 ---
 <img src="./images/phone_interaction.gif" width="19%" height="19%"/>
 
 - **Interaction Screen:** <br>
     - View New Users on the App.
-    - Click on the Profile name to segue to the users Profile screen.
+    - Click on the Profile name to segue to the user Profile screen.
     - Follow or Unfollow users directly from this screen.
 ---
 <img src="./images/phone_profile.gif" width="19%" height="19%"/>
@@ -110,7 +110,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
         - Pin a Post (which will be displayed on your own Profile).
         - Reply to a Post.
         - Love a Post.
-    - Click on the Profile name to segue to the users Profile screen.
+    - Click on the Profile name to segue to the user Profile screen.
 ---
 <img src="./images/phone_post.gif" width="19%" height="19%"/><img src="./images/phone_attachments.png" width="19%" height="19%"/>
 
@@ -126,7 +126,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 - **Settings:** <br>
     - About section to view the current **Post.e** version number (derived from the `info.plist` value of `CFBundleShortVersionString`).
     - Open Source Libraries used to create **Post.e** and their related LICENSE files.
-    - Language Selection displays your current Device Language, available Languages supported by **Post.e** as well as a link to your Settings screen to change your device language (this will cause the application to restart per Apple).
+    - Language Selection displays your current Device Language, available Languages supported by **Post.e** as well as a link to your Settings screen to change your device language (this will cause the application to restart as per Apple).
     - Directory Settings displays your current folder directory used to select files for Post Attachments. Toggle the "Use Sample Directory" switch to use the sample files provided with **Post.e** by default or not.
     - Change your Password
     - Logout of the Application (which will also kill the session on the server).
@@ -153,7 +153,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 ## Getting Started
 - Download the application from here, Github.
 - Place the `server` file on your web server.
-- Ensure you have the proper language frameworks and versions installed that you're integrating **Post.e** with. 
+- Ensure you have the proper language frameworks and versions installed to integrate **Post.e** with. 
     - See [Programming Languages](#programming-languages) below for the current list of version numbers.
 - Import the provided `MySQL` database structure into your database using either the `db/mysql/post-e.sql` file or the `db/mysql/post-e_demo.sql` file.
     - The `post-e.sql` file is a blank/empty database/sandbox.
@@ -177,7 +177,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 - Click Login! Enjoy!
 
 **NOTE:** 
-- All of the demo accounts in the database use this same password above. 
+- All of the demo accounts in the database use the password above. 
 - Passwords are hashed using `SHA512` and `Salted`.
 - The demo accounts consist of quotes from famous individuals that have inspired me through their works and words.
 
@@ -197,17 +197,17 @@ Below is a running list of languages currently supported by **Post.e**:
 |  ![Rust](https://img.shields.io/badge/Rust-open-critical?style=for-the-badge&logo=rust)                             | 1.64.0      |
 |  ![Perl](https://img.shields.io/badge/Perl-open-critical?style=for-the-badge&logo=perl)                             | 5.30.3      |
 |  ![Java](https://img.shields.io/badge/Java-open-critical?style=for-the-badge)                                       | 17.0.5      |
-|  ![MariaDB](https://img.shields.io/badge/MySQL-complete-success?style=for-the-badge&logo=mysql)                     | 10.4.21     |
+|  ![MariaDB](https://img.shields.io/badge/MariaDB-complete-success?style=for-the-badge&logo=mysql)                     | 10.4.21     |
 
 ## Project
 
-Please reference the GitHub Project tab inside this Repo to get a good understanding where I'm currently at with the overall project. Issues and enhancements will also be tracked there as well.
+Please reference the GitHub Project tab inside this Repo to get a good understanding of where I'm currently at with the overall project. Issues and enhancements will also be tracked there as well.
 
 ## Future Plans
 
 - Besides making **Post.e** compatible with more back-end languages, devices, and the tasks mentioned in the Backlog (i.e. Editing Posts, Push Notifications, etc.), I'm considering eventually hosting it on a server so it's not constrained to a local environment. This way, the demo will have a sandbox for everyone to interact in. I don't plan on making it an actual social media app - it was created as a learning tool for all, and I'd like to keep it that way.
 - I designed the app icons and banners myself, however, as you all know - Design is a full time job and hard to balance with programming. A lot of the buttons and interactive icons were taken from free design websites. I'd like to eventually create and plug in custom designs into the application for a better user experience and flow.
-- I intend to add more documentation around app navigation as well as an in-depth dive into the underlying technology used within the app. As I mentioned above, I want this to be used as a learning tool and solid documentation is a *must have* as a teaching tool; I will probably utilize github-pages for documentation (stay tuned).
+- I intend to add more documentation around app navigation as well as an in-depth dive into the underlying technology used within the app. As I mentioned above, I want this to be used as a learning tool and solid documentation is a *must have* as a teaching tool; I will probably utilize github-pages or a seperate markdown file for documentation (stay tuned).
 
 ## Contribution
 
