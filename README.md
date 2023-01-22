@@ -134,8 +134,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 - **watchOS Support:** <br>
     - Post to your Profile using a audio to text message or by typing in the text using the watch keyboard.
 
-<img src="./images/phone_language_support.gif" width="19%" height="19%"/>
-<img src="./images/watch_language_support.png" width="19%" height="19%"/>
+<img src="./images/phone_language_support.gif" width="19%" height="19%"/><img src="./images/watch_language_support.png" width="19%" height="19%"/>
 
 - **Language Support:** <br>
     - English and Russian language support using [Localization](https://developer.apple.com/localization/). View the `language` table in the database to view the supported languages.
