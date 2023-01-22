@@ -144,7 +144,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 
 - **Dark Mode Support:** <br>
     - Easily toggle Designs between Light and Dark Mode.
-
+---
 - **API:**
     - Navigate to the `api` file to access the settings `.json` file used to import APIs into Postman. 
     - View the `apis.[language]` file to view the list of available APIs and usage. 
