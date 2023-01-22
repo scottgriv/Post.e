@@ -110,7 +110,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
         - Love a Post.
     - Click on the Profile name to segue to their Profile screen.
 <br>
-<img src="./images/phone_post.gif" width="19%" height="19%"/>
+<img src="./images/phone_post.gif" width="19%" height="19%"/><img src="./images/phone_attachments.png" width="19%" height="19%"/>
 
 - **Post Screen:** <br>
     - Type up a Post.
@@ -118,7 +118,6 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Add Photos/Videos from your Camera or Photo Library.
     - Add Attachments (**Post.e** comes with a demo directory with a few files ready to select) - see screenshot below.
     - Submit the Post to the server.
-    <img src="./images/phone_attachments.png" width="19%" height="19%"/>
 <br>
 <img src="./images/phone_settings-logout.gif" width="19%" height="19%"/>
 
@@ -146,6 +145,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 - **Dark Mode Support:** <br>
     - Easily toggle Designs between Light and Dark Mode.
 <br>
+
 - **API:**
     - Navigate to the `api` file to access the settings `.json` file used to import APIs into Postman. 
     - View the `apis.[language]` file to view the list of available APIs and usage. 
