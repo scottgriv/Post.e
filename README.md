@@ -5,7 +5,7 @@
 ![watchOS](https://img.shields.io/badge/watchOS-9.1-yellow?style=for-the-badge&logo=apple)
 [![Contact](https://img.shields.io/badge/contact-scott.grivner@gmail.com-9cf?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
 
-**Post.e** is a multi-language "how-to" social media application.
+**Post.e** is a multi-language "how-to social media" application.
 
 - [Background Story](#background-story)
 - [Definitions](#definitions)
@@ -130,7 +130,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Change your Password
     - Logout of the Application (which will also kill the session on the server).
 ---
- <img src="./images/watch_support.gif" width="30%" height="30%"/>
+ <img src="./images/watch_support.gif" width="45%" height="45%"/>
 
 - **watchOS Support:** <br>
     - Post to your Profile using audio to text or by typing in the text using the watch keyboard.
