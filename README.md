@@ -4,7 +4,7 @@
 ![iOS](https://img.shields.io/badge/iOS-16.2-red?style=for-the-badge&logo=apple)
 ![watchOS](https://img.shields.io/badge/watchOS-9.1-green?style=for-the-badge&logo=apple)
 [![Email](https://img.shields.io/badge/email-contact_me-9cf?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
-[![BuyMeACoffee](https://img.shields.io/badge/donations-buy_me_a_coffee-yellow?style=for-the-badge&logo=buymeacoffee&color=ffdd00)](https://www.buymeacoffee.com/scottgriv)
+[![BuyMeACoffee](https://img.shields.io/badge/donate-buy_me_a_coffee-yellow?style=for-the-badge&logo=buymeacoffee&color=ffdd00)](https://www.buymeacoffee.com/scottgriv)
 
 **Post.e** is a multi-language "how-to social media" application.
 
