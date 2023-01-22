@@ -56,6 +56,7 @@ I had two goals when I originally started this project:
 Currently, the `Post.swift` file contains the static values mentioned above. In the future, I'd like to sync this to the `parameter` table in the database for a more dynamic approach, including a max character limit for Posts and an alert message if the Post limit has been exceeded.
 
 ## Features:
+--- 
 <img src="./images/phone_login-register.gif" width="19%" height="19%"/>
 
 - **Login & Register Screens:** 
@@ -64,12 +65,12 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
         - Checks for minimum password length, min/max user name length, missing or empty fields, matching paswords, and invalid characters using `REGEX` patterns. 
     - Registering a User will create a new folder in the `server/uploads` folder using the new `Prof_ID` column value, which is an `AUTO_INCREMENT` column in the database (Posts work in this same fashion).
     - A unique `ID` is also generated using the `encoder.[language]` file using `Base 64 Encoding` to produce a unique external facing `ID`, stored in the database under the `Prof_Key` or `Post_Key` columns, that can be used to share Posts or Profiles in the future.
-
+---
 <img src="./images/phone_config.gif" width="19%" height="19%"/>
 
 - **Configure Programming Language Screens:** <br>
     - Pick the server side language you want Post.e to use. This will route the requests to the toggled language folder.
-
+---
 <img src="./images/phone_feed.gif" width="19%" height="19%"/>
 
 - **Feed Screen:** <br>
@@ -80,14 +81,14 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
         - *Home* uses a number of columns to create a fun user feed experience using the below `WHERE` clause:
         - `WHERE Post_Love_Count DESC, Post_Pin_Count DESC, Post_Reply_Count, Post_Created DESC`.
     - Click on the Profile name to segue to their Profile screen.
-
+---
 <img src="./images/phone_interaction.gif" width="19%" height="19%"/>
 
 - **Interaction Screen:** <br>
     - View New Users on the App.
     - Click on the Profile name to segue to their Profile screen.
     - Follow or Unfollow users directly from this screen.
-
+---
 <img src="./images/phone_profile.gif" width="19%" height="19%"/>
 
 - **Profile Screen:** <br>
@@ -109,7 +110,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
         - Reply to a Post.
         - Love a Post.
     - Click on the Profile name to segue to their Profile screen.
-
+---
 <img src="./images/phone_post.gif" width="19%" height="19%"/><img src="./images/phone_attachments.png" width="19%" height="19%"/>
 
 - **Post Screen:** <br>
@@ -118,7 +119,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Add Photos/Videos from your Camera or Photo Library.
     - Add Attachments (**Post.e** comes with a demo directory with a few files ready to select) - see screenshot below.
     - Submit the Post to the server.
-
+---
 <img src="./images/phone_settings-logout.gif" width="19%" height="19%"/>
 
 - **Settings:** <br>
@@ -128,17 +129,17 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Directory Settings displays your current folder directory used to select files for Post Attachments. Toggle the "Use Sample Directory" switch to use the sample files provided with **Post.e** by default or not.
     - Change your Password
     - Logout of the Application (which will also kill the session on the server).
-
+---
  <img src="./images/watch_support.gif" width="30%" height="30%"/>
 
 - **watchOS Support:** <br>
     - Post to your Profile using a audio to text message or by typing in the text using the watch keyboard.
-
+---
 <img src="./images/phone_language_support.gif" width="19%" height="19%"/><img src="./images/watch_language_support.png" width="19%" height="19%"/>
 
 - **Language Support:** <br>
     - English and Russian language support using [Localization](https://developer.apple.com/localization/). View the `language` table in the database to view the supported languages.
-
+---
 <img src="./images/phone_dark_support.gif" width="19%" height="19%"/>
 
 - **Dark Mode Support:** <br>
