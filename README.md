@@ -19,11 +19,11 @@
 - [License](#license)
 - [Credit](#credit)
 
-<img src="./images/phone_feed.gif" width="18%" height="18%"/> <!-- Done -->
-<img src="./images/phone_post.gif" width="18%" height="18%"/> <!-- Done -->
-<img src="./images/phone_splash.png" width="18%" height="18%"/> <!-- Done -->
-<img src="./images/phone_profile.gif" width="18%" height="18%"/> <!-- Done -->
-<img src="./images/phone_interaction.gif" width="18%" height="18%"/> <!-- Done -->
+<img src="./images/phone_feed.gif" width="20%" height="20%"/> <!-- Done -->
+<img src="./images/phone_post.gif" width="20%" height="20%"/> <!-- Done -->
+<img src="./images/phone_splash.png" width="20%" height="20%"/> <!-- Done -->
+<img src="./images/phone_profile.gif" width="20%" height="20%"/> <!-- Done -->
+<img src="./images/phone_interaction.gif" width="20%" height="20%"/> <!-- Done -->
 
 ## Background Story
 
@@ -56,20 +56,20 @@ I had two goals when I originally started this project:
 Currently, the `Post.swift` file contains the static values mentioned above. In the future, I'd like to sync this to the `parameter` table in the database for a more dynamic approach, including a max character limit for Posts and an alert message if the Post limit has been exceeded.
 
 ## Features:
-- **Login & Register Screens:** <br>
-<img src="./images/phone_login-register.gif" width="18%" height="18%"/>
-    - Single Sign-On (SSO) capabilties by using a combination of Swift's [UserDefaults](https://developer.apple.com/documentation/foundation/userdefaults) class and server side session handling using. Login once then then automatically login in the future without signing in (unless, of course, you logout of the app which kills the active session in the `session` table).
+- **Login & Register Screens:** 
+<img src="./images/phone_login-register.gif" width="20%" height="20%"/>
+    - Single Sign-On (SSO) capabilties by using a combination of Swift's class and server side session handling using. Login once then then automatically login in the future without signing in (unless, of course, you logout of the app which kills the active session in the `session` table).
     - Username & Password validations.
         - Checks for minimum password length, min/max user name length, missing or empty fields, matching paswords, and invalid characters using `REGEX` patterns. 
     - Registering a User will create a new folder in the `server/uploads` folder using the new `Prof_ID` column value, which is an `AUTO_INCREMENT` column in the database (Posts work in this same fashion).
     - A unique `ID` is also generated using the `encoder.[language]` file using `Base 64 Encoding` to produce a unique external facing `ID`, stored in the database under the `Prof_Key` or `Post_Key` columns, that can be used to share Posts or Profiles in the future.
 <br><br>
 - **Configure Programming Language Screens:** <br>
-<img src="./images/phone_config.gif" width="18%" height="18%"/>
+<img src="./images/phone_config.gif" width="20%" height="20%"/>
     - Pick the server side language you want Post.e to use. This will route the requests to the toggled language folder.
 <br><br>
 - **Feed Screen:** <br>
-<img src="./images/phone_feed.gif" width="18%" height="18%"/>
+<img src="./images/phone_feed.gif" width="20%" height="20%"/>
     - Sort Posts by *Newest*:
         - *Newest* consists of the most *recent* posts using the `Post_Created` date column in descending order.
         - `WHERE Post_Created DESC`.
@@ -79,13 +79,13 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Click on the Profile name to segue to their Profile screen.
 <br><br>
 - **Interaction Screen:** <br>
-<img src="./images/phone_interaction.gif" width="18%" height="18%"/>
+<img src="./images/phone_interaction.gif" width="20%" height="20%"/>
     - View New Users on the App.
     - Click on the Profile name to segue to their Profile screen.
     - Follow or Unfollow users directly from this screen.
 <br><br>
 - **Profile Screen:** <br>
-<img src="./images/phone_profile.gif" width="18%" height="18%"/>
+<img src="./images/phone_profile.gif" width="20%" height="20%"/>
     - Interactive Follower, Following, and Post count buttons that will segue to the Interaction screen when clicked.
     - Profile picture display.
     - Click the Profile tab icon to scroll to the top.
@@ -106,16 +106,16 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Click on the Profile name to segue to their Profile screen.
 <br><br>
 - **Post Screen:** <br>
-    <img src="./images/phone_post.gif" width="18%" height="18%"/>
+    <img src="./images/phone_post.gif" width="20%" height="20%"/>
     - Type up a Post.
     - Cancel the Post by clicking the Cancel button or the visible Profile Screen.
     - Add Photos/Videos from your Camera or Photo Library.
     - Add Attachments (**Post.e** comes with a demo directory with a few files ready to select). <br>
-    <img src="./images/phone_attachments.png" width="18%" height="18%"/>
+    <img src="./images/phone_attachments.png" width="20%" height="20%"/>
     - Submit the Post to the server.
 <br><br>
 - **Settings:** <br>
-<img src="./images/phone_settings-logout.gif" width="18%" height="18%"/>
+<img src="./images/phone_settings-logout.gif" width="20%" height="20%"/>
     - About section to view the current Post.e version number (derived from the `info.plist` value of `CFBundleShortVersionString`).
     - Open Source Libraries used to create `Post.e` and their related LICENSE files.
     - Language Selection displays your current Device Language, available Languages supported by **Post.e** as well as a link to your Settings screen to change your device language (this will cause the application to re-start per Apple).
@@ -128,12 +128,12 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Post to your Profile using a audio to text message or by typing in the text using the watch keyboard.
 <br><br>
 - **Language Support:** <br>
-<img src="./images/phone_language_support.gif" width="18%" height="18%"/>
-<img src="./images/watch_language_support.png" width="18%" height="18%"/>
+<img src="./images/phone_language_support.gif" width="20%" height="20%"/>
+<img src="./images/watch_language_support.png" width="20%" height="20%"/>
     - English and Russian language support using [Localization](https://developer.apple.com/localization/). View the `language` table in the database to view the supported languages.
 <br><br> 
 - **Dark Mode Support:** <br>
-<img src="./images/phone_dark_support.gif" width="18%" height="18%"/>
+<img src="./images/phone_dark_support.gif" width="20%" height="20%"/>
     - Easily toggle Designs between Light and Dark Mode.
 <br><br>
 - **API:**
