@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "7wV-qo-OR4"; */
+"7wV-qo-OR4.text" = "Username";
+
+/* Class = "UIButton"; normalTitle = "999k"; ObjectID = "AEc-AE-dbS"; */
+"AEc-AE-dbS.normalTitle" = "999k";
+
+/* Class = "UILabel"; text = "Posts"; ObjectID = "Heb-8h-J5N"; */
+"Heb-8h-J5N.text" = "Posts";
+
+/* Class = "UIButton"; normalTitle = "999k"; ObjectID = "INI-Ca-6LW"; */
+"INI-Ca-6LW.normalTitle" = "999k";
+
+/* Class = "UILabel"; text = "Followers"; ObjectID = "NFX-lE-EMM"; */
+"NFX-lE-EMM.text" = "Followers";
+
+/* Class = "UILabel"; text = "Following"; ObjectID = "O9M-z6-xgX"; */
+"O9M-z6-xgX.text" = "Following";
+
+/* Class = "UIButton"; normalTitle = "999k"; ObjectID = "adX-PZ-VGh"; */
+"adX-PZ-VGh.normalTitle" = "999k";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "bEo-PF-5EB"; */
+"bEo-PF-5EB.text" = "Name";
+
+/* Class = "UILabel"; text = "999"; ObjectID = "g4Q-dB-MuF"; */
+"g4Q-dB-MuF.text" = "999";
+
+/* Class = "UIButton"; normalTitle = "Follow"; ObjectID = "lqD-Ed-7b3"; */
+"lqD-Ed-7b3.normalTitle" = "Follow";

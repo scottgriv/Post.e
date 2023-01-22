@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "999"; ObjectID = "2iG-pP-uMq"; */
+"2iG-pP-uMq.text" = "999";
+
+/* Class = "UIButton"; normalTitle = "Test"; ObjectID = "61w-xB-Gq1"; */
+"61w-xB-Gq1.normalTitle" = "Test";
+
+/* Class = "UIButton"; configuration.title = "999"; ObjectID = "6XN-m2-pO8"; */
+"6XN-m2-pO8.configuration.title" = "999";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6XN-m2-pO8"; */
+"6XN-m2-pO8.normalTitle" = "Button";
+
+/* Class = "UITextView"; text = "Post"; ObjectID = "BaZ-ub-gRs"; */
+"BaZ-ub-gRs.text" = "Опубликовать";
+
+/* Class = "UIButton"; configuration.title = "999"; ObjectID = "ClI-X5-WdT"; */
+"ClI-X5-WdT.configuration.title" = "999";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ClI-X5-WdT"; */
+"ClI-X5-WdT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "11/10/21"; ObjectID = "Y27-RW-Sf9"; */
+"Y27-RW-Sf9.text" = "11/10/21";
+
+/* Class = "UIButton"; configuration.title = "999"; ObjectID = "fXy-pv-MZY"; */
+"fXy-pv-MZY.configuration.title" = "999";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fXy-pv-MZY"; */
+"fXy-pv-MZY.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "999"; ObjectID = "uRI-S9-pOJ"; */
+"uRI-S9-pOJ.configuration.title" = "999";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uRI-S9-pOJ"; */
+"uRI-S9-pOJ.normalTitle" = "Button";

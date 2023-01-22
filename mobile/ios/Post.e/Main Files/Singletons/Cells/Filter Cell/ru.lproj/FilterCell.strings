@@ -1,0 +1,15 @@
+
+/* Class = "UISegmentedControl"; Okj-7J-nlf.segmentTitles[0] = "Newest"; ObjectID = "Okj-7J-nlf"; */
+"Okj-7J-nlf.segmentTitles[0]" = "новейшее";
+
+/* Class = "UISegmentedControl"; Okj-7J-nlf.segmentTitles[1] = "Oldest"; ObjectID = "Okj-7J-nlf"; */
+"Okj-7J-nlf.segmentTitles[1]" = "cтарейший";
+
+/* Class = "UISegmentedControl"; Okj-7J-nlf.segmentTitles[2] = "Loved"; ObjectID = "Okj-7J-nlf"; */
+"Okj-7J-nlf.segmentTitles[2]" = "любимый";
+
+/* Class = "UISegmentedControl"; Okj-7J-nlf.segmentTitles[3] = "Pinned"; ObjectID = "Okj-7J-nlf"; */
+"Okj-7J-nlf.segmentTitles[3]" = "прикрепленный";
+
+/* Class = "UISegmentedControl"; Okj-7J-nlf.segmentTitles[4] = "Replied"; ObjectID = "Okj-7J-nlf"; */
+"Okj-7J-nlf.segmentTitles[4]" = "отвеченое";

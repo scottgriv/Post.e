@@ -1,0 +1,10 @@
+Hello!
+
+This is a Sample Text File for Post.e.
+
+If you're reading this, you delved fairly far into my code base.
+
+I appreciate you looking into Post.e! Your interest means a lot to me!
+
+Thank you,
+-Scott Grivner

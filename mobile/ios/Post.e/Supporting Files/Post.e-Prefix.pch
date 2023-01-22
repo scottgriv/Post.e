@@ -1,0 +1,30 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+//Import Headers
+#import "Constants.h"
+#import "DataManager.h"
+#import "SSKeychain.h"
+#import "AFNetworking.h"
+#import "UIImageView+AFNetworking.h"
+#import "ALAlertBanner.h"
+
+//#define USE_ON_FLY_LOCALIZATION
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h> //UIKit Framework
+    #import <Foundation/Foundation.h> //Foundation Framework
+    #import <SystemConfiguration/SystemConfiguration.h> //System Configuration Framework
+    #import <QuartzCore/QuartzCore.h>
+    #import <UserNotifications/UserNotifications.h>
+
+#endif
+
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)

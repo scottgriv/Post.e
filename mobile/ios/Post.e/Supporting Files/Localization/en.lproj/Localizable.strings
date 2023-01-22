@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  Post.e
+
+  Created by Scott Grivner on 7/15/22.
+  
+*/
+
+//Edit Profile Button
+"PROFILE_EDIT" = "Edit Profile";
+
+//Following Button
+"PROFILE_FOLLOWING" = "Following";
+
+//Follow Button
+"PROFILE_FOLLOW" = "Follow";
+
+//Log Out
+"LOG_OUT" = "Log Out";
+
+//Log Out Message
+"LOG_OUT_MESSAGE" = "Are you sure you want to Logout of Post.e?";
+
+//Cancel
+"CANCEL" = "Cancel";
+
+//Post Message
+"POST_MESSAGE" = "What's on your mind?";

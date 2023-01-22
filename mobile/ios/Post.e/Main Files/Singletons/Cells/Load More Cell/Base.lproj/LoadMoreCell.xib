@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="LoadMoreCell" id="DWb-8H-Th3" customClass="LoadMoreCell">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DWb-8H-Th3" id="XPU-KF-wkx">
+                <rect key="frame" x="0.0" y="0.0" width="428" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <activityIndicatorView opaque="NO" tag="999" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="WFp-F9-o2G">
+                        <rect key="frame" x="204" y="15" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="A6o-aL-7Qb"/>
+                            <constraint firstAttribute="height" constant="20" id="VHV-gR-hZf"/>
+                        </constraints>
+                        <color key="color" name="textColor"/>
+                    </activityIndicatorView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" tag="998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="End_Loading" translatesAutoresizingMaskIntoConstraints="NO" id="Jgl-0E-zrr">
+                        <rect key="frame" x="194" y="5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="9j3-SP-Kft"/>
+                            <constraint firstAttribute="height" constant="40" id="VmW-fJ-DNW"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Jgl-0E-zrr" firstAttribute="centerX" secondItem="XPU-KF-wkx" secondAttribute="centerX" id="1J4-PT-96L"/>
+                    <constraint firstItem="WFp-F9-o2G" firstAttribute="centerY" secondItem="XPU-KF-wkx" secondAttribute="centerY" id="Cp4-GH-9fG"/>
+                    <constraint firstItem="Jgl-0E-zrr" firstAttribute="centerY" secondItem="XPU-KF-wkx" secondAttribute="centerY" id="Wry-y3-WU6"/>
+                    <constraint firstItem="WFp-F9-o2G" firstAttribute="centerX" secondItem="XPU-KF-wkx" secondAttribute="centerX" id="ysG-kv-ixb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration" identifier="LoadMoreCell"/>
+            <connections>
+                <outlet property="endPic" destination="Jgl-0E-zrr" id="1CM-Zv-di9"/>
+                <outlet property="loadMoreAI" destination="WFp-F9-o2G" id="gTO-Wg-Npk"/>
+            </connections>
+            <point key="canvasLocation" x="133" y="132"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="End_Loading" width="76" height="76"/>
+        <namedColor name="textColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

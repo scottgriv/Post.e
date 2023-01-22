@@ -1,0 +1,231 @@
+
+/* Class = "UITextField"; placeholder = "Enter Current Password"; ObjectID = "1X0-cK-SpJ"; */
+"1X0-cK-SpJ.placeholder" = "Enter Current Password";
+
+/* Class = "UILabel"; text = "2022-01-01"; ObjectID = "2Qj-9E-DHD"; */
+"2Qj-9E-DHD.text" = "2022-01-01";
+
+/* Class = "UILabel"; text = "Ruby"; ObjectID = "2at-yb-9Ud"; */
+"2at-yb-9Ud.text" = "Ruby";
+
+/* Class = "UILabel"; text = "Use Sample Directory:"; ObjectID = "2fd-hu-0e2"; */
+"2fd-hu-0e2.text" = "Use Sample Directory:";
+
+/* Class = "UITextField"; placeholder = "Enter New Password"; ObjectID = "669-fU-G9p"; */
+"669-fU-G9p.placeholder" = "Enter New Password";
+
+/* Class = "UITextField"; placeholder = "Enter your Name here"; ObjectID = "6Ge-c8-uhB"; */
+"6Ge-c8-uhB.placeholder" = "Enter your Name here";
+
+/* Class = "UIButton"; normalTitle = "Change Password"; ObjectID = "6eX-cm-YEn"; */
+"6eX-cm-YEn.normalTitle" = "Change Password";
+
+/* Class = "UITextField"; placeholder = "Re-enter New Password"; ObjectID = "7MJ-FL-f7c"; */
+"7MJ-FL-f7c.placeholder" = "Re-enter New Password";
+
+/* Class = "UILabel"; text = "Profile User:"; ObjectID = "7oC-8H-cmH"; */
+"7oC-8H-cmH.text" = "Profile User:";
+
+/* Class = "UIButton"; normalTitle = "Open Settings App"; ObjectID = "93C-gI-tM7"; */
+"93C-gI-tM7.normalTitle" = "Open Settings App";
+
+/* Class = "UILabel"; text = "Server Side Language Selection:"; ObjectID = "AoL-vy-yLd"; */
+"AoL-vy-yLd.text" = "Server Side Language Selection:";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "CaA-qF-ztK"; */
+"CaA-qF-ztK.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "scott.grivner@gmail.com"; ObjectID = "CoE-AK-JxS"; */
+"CoE-AK-JxS.normalTitle" = "scott.grivner@gmail.com";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "CtV-eo-JKM"; */
+"CtV-eo-JKM.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Language Selection"; ObjectID = "Fmb-bf-7hf"; */
+"Fmb-bf-7hf.text" = "Language Selection";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Gj9-BY-AVL"; */
+"Gj9-BY-AVL.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "About"; ObjectID = "Jpc-Eu-0YA"; */
+"Jpc-Eu-0YA.normalTitle" = "About";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "K92-Ag-YbD"; */
+"K92-Ag-YbD.normalTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = "Open Source Libraries"; ObjectID = "Kaf-a6-s25"; */
+"Kaf-a6-s25.normalTitle" = "Open Source Libraries";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "LQz-Ce-IaU"; */
+"LQz-Ce-IaU.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Current Device Language:"; ObjectID = "Lci-sN-GcZ"; */
+"Lci-sN-GcZ.text" = "Current Device Language:";
+
+/* Class = "UILabel"; text = "Developer:"; ObjectID = "PLI-KB-tB5"; */
+"PLI-KB-tB5.text" = "Developer:";
+
+/* Class = "UIButton"; normalTitle = "Test.pdf"; ObjectID = "PPV-VE-h5G"; */
+"PPV-VE-h5G.normalTitle" = "Test.pdf";
+
+/* Class = "UILabel"; text = "Go"; ObjectID = "QD6-nV-vUM"; */
+"QD6-nV-vUM.text" = "Go";
+
+/* Class = "UIButton"; normalTitle = "Save Changes"; ObjectID = "QwJ-5B-7Qa"; */
+"QwJ-5B-7Qa.normalTitle" = "Save Changes";
+
+/* Class = "UILabel"; text = "10 KB"; ObjectID = "R9R-jQ-bkz"; */
+"R9R-jQ-bkz.text" = "10 KB";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "RRo-fb-HPK"; */
+"RRo-fb-HPK.normalTitle" = "Logout";
+
+/* Class = "UIButton"; normalTitle = "Delete Profile"; ObjectID = "SLP-PS-nfA"; */
+"SLP-PS-nfA.normalTitle" = "Delete Profile";
+
+/* Class = "UIButton"; normalTitle = "Language Selection"; ObjectID = "Sbb-H1-6if"; */
+"Sbb-H1-6if.normalTitle" = "Language Selection";
+
+/* Class = "UIButton"; normalTitle = "Test.pdf"; ObjectID = "Uh9-q5-pb6"; */
+"Uh9-q5-pb6.normalTitle" = "Test.pdf";
+
+/* Class = "UILabel"; text = "Directory Settings"; ObjectID = "VEZ-Gw-6Xf"; */
+"VEZ-Gw-6Xf.text" = "Directory Settings";
+
+/* Class = "UIButton"; normalTitle = "Follow"; ObjectID = "VzX-md-wle"; */
+"VzX-md-wle.normalTitle" = "Follow";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "W5w-dc-etd"; */
+"W5w-dc-etd.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Post.e v1.0.0"; ObjectID = "Ww9-T2-hCf"; */
+"Ww9-T2-hCf.text" = "Post.e v1.0.0";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "XCy-Hg-gMR"; */
+"XCy-Hg-gMR.placeholder" = "Username";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "XcK-9Y-cZq"; */
+"XcK-9Y-cZq.normalTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "YAt-hc-GyE"; */
+"YAt-hc-GyE.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Node.js"; ObjectID = "aLV-1O-9em"; */
+"aLV-1O-9em.text" = "Node.js";
+
+/* Class = "UILabel"; text = "*"; ObjectID = "ahB-8U-yMm"; */
+"ahB-8U-yMm.text" = "*";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "as7-eI-jHw"; */
+"as7-eI-jHw.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "Website:"; ObjectID = "bG8-Cj-3Uo"; */
+"bG8-Cj-3Uo.text" = "Website:";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "bqU-Sk-tMt"; */
+"bqU-Sk-tMt.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Change Password"; ObjectID = "cVX-xT-RQL"; */
+"cVX-xT-RQL.text" = "Change Password";
+
+/* Class = "UILabel"; text = "Current Directory Path:"; ObjectID = "dA7-2R-IBr"; */
+"dA7-2R-IBr.text" = "Current Directory Path:";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "eIl-0d-aeV"; */
+"eIl-0d-aeV.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "PHP"; ObjectID = "fRZ-1L-sjj"; */
+"fRZ-1L-sjj.text" = "PHP";
+
+/* Class = "UILabel"; text = "Profile Name:"; ObjectID = "gID-9C-wfZ"; */
+"gID-9C-wfZ.text" = "Profile Name:";
+
+/* Class = "UILabel"; text = "Java"; ObjectID = "gME-Es-taS"; */
+"gME-Es-taS.text" = "Java";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "gpC-Sy-znL"; */
+"gpC-Sy-znL.normalTitle" = " ";
+
+/* Class = "UILabel"; text = "Change your Language in the Settings App:"; ObjectID = "h1a-sw-a6X"; */
+"h1a-sw-a6X.text" = "Change your Language in the Settings App:";
+
+/* Class = "UILabel"; text = "Contact:"; ObjectID = "hFk-eY-elA"; */
+"hFk-eY-elA.text" = "Contact:";
+
+/* Class = "UIButton"; normalTitle = "Directory Settings"; ObjectID = "hPo-6u-V7R"; */
+"hPo-6u-V7R.normalTitle" = "Directory Settings";
+
+/* Class = "UILabel"; text = "Change your Device language in the Settings App. Please go to Settings -> Language & Region -> iPhone Language to one of the available languages above then restart the app to see the newly applied language."; ObjectID = "hZ6-TZ-wby"; */
+"hZ6-TZ-wby.text" = "Change your Device language in the Settings App. Please go to Settings -> Language & Region -> iPhone Language to one of the available languages above then restart the app to see the newly applied language.";
+
+/* Class = "UIButton"; normalTitle = "www.scottgrivner.com"; ObjectID = "hfh-0Y-WZp"; */
+"hfh-0Y-WZp.normalTitle" = "www.scottgrivner.com";
+
+/* Class = "UITextView"; text = "Test Text"; ObjectID = "iFI-hj-rc7"; */
+"iFI-hj-rc7.text" = "Test Text";
+
+/* Class = "UILabel"; text = "Scott Grivner"; ObjectID = "kBv-F2-1ls"; */
+"kBv-F2-1ls.text" = "Scott Grivner";
+
+/* Class = "UILabel"; text = "Unknown"; ObjectID = "kvJ-WI-Eg1"; */
+"kvJ-WI-Eg1.text" = "Unknown";
+
+/* Class = "UILabel"; text = "Note: PHP is the default server side language."; ObjectID = "lGG-qP-4lQ"; */
+"lGG-qP-4lQ.text" = "Note: PHP is the default server side language.";
+
+/* Class = "UIButton"; normalTitle = "Configure"; ObjectID = "lN7-E1-eCE"; */
+"lN7-E1-eCE.normalTitle" = "Configure";
+
+/* Class = "UILabel"; text = "*Future Release"; ObjectID = "llR-se-OHw"; */
+"llR-se-OHw.text" = "*Future Release";
+
+/* Class = "UILabel"; text = "*The Sample Directory is located in the Files App and includes sample files used for Attachments."; ObjectID = "mKx-QA-ioW"; */
+"mKx-QA-ioW.text" = "*The Sample Directory is located in the Files App and includes sample files used for Attachments.";
+
+/* Class = "UILabel"; text = "10 KB"; ObjectID = "mal-SM-dp3"; */
+"mal-SM-dp3.text" = "10 KB";
+
+/* Class = "UIButton"; normalTitle = "Remove Profile Picture"; ObjectID = "miB-au-Zzg"; */
+"miB-au-Zzg.normalTitle" = "Remove Profile Picture";
+
+/* Class = "UIButton"; normalTitle = "Save Changes"; ObjectID = "nwz-sa-blS"; */
+"nwz-sa-blS.normalTitle" = "Save Changes";
+
+/* Class = "UILabel"; text = "Available Language Options:"; ObjectID = "oTO-C6-7Jj"; */
+"oTO-C6-7Jj.text" = "Available Language Options:";
+
+/* Class = "UIButton"; normalTitle = "Change Profile Picture"; ObjectID = "prB-0j-WaA"; */
+"prB-0j-WaA.normalTitle" = "Change Profile Picture";
+
+/* Class = "UILabel"; text = "© 2021 Scott Grivner. All Rights Reserved."; ObjectID = "qco-XM-fSH"; */
+"qco-XM-fSH.text" = "© 2021 Scott Grivner. All Rights Reserved.";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "qcy-tC-puV"; */
+"qcy-tC-puV.normalTitle" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Test"; ObjectID = "r3t-K0-G9R"; */
+"r3t-K0-G9R.normalTitle" = "Test";
+
+/* Class = "UITextField"; placeholder = "Re-enter Password"; ObjectID = "uB3-wa-VFW"; */
+"uB3-wa-VFW.placeholder" = "Re-enter Password";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "v1H-eU-KRT"; */
+"v1H-eU-KRT.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Python"; ObjectID = "vao-AF-R3I"; */
+"vao-AF-R3I.text" = "Python";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "xrb-Vo-4Xs"; */
+"xrb-Vo-4Xs.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "ylh-bI-9QX"; */
+"ylh-bI-9QX.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "2022-01-01"; ObjectID = "yvW-YY-bAV"; */
+"yvW-YY-bAV.text" = "2022-01-01";
+
+/* Class = "UILabel"; text = "View the README or Git repo for more information."; ObjectID = "z9w-kE-stw"; */
+"z9w-kE-stw.text" = "View the README for more information.";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "zkO-N8-B83"; */
+"zkO-N8-B83.normalTitle" = "Login";

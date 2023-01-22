@@ -1,0 +1,394 @@
+{
+	"info": {
+		"_postman_id": "34aecd9c-7460-40a0-ab99-7127e1acd9a7",
+		"name": "PHP - Post.e API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24571367"
+	},
+	"item": [
+		{
+			"name": "SELECT - CHECK_TOKEN",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dart\",\n    \"released_year\": 2011,\n    \"githut_rank\": 13,\n    \"pypl_rank\": 20,\n    \"tiobe_rank\": 25\n}"
+				},
+				"url": {
+					"raw": "http://localhost/Post.e/languages/php/apis.php?TOKEN=j2Srmh&TYPE=CHECK_TOKEN",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Post.e",
+						"languages",
+						"php",
+						"apis.php"
+					],
+					"query": [
+						{
+							"key": "TOKEN",
+							"value": "j2Srmh"
+						},
+						{
+							"key": "TYPE",
+							"value": "CHECK_TOKEN"
+						}
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "SELECT - USER_OVERALL_TOTAL",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dart\",\n    \"released_year\": 2011,\n    \"githut_rank\": 13,\n    \"pypl_rank\": 20,\n    \"tiobe_rank\": 25\n}"
+				},
+				"url": {
+					"raw": "http://localhost/Post.e/languages/php/apis.php?TOKEN=j2Srmh&TYPE=USER_OVERALL_TOTAL",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Post.e",
+						"languages",
+						"php",
+						"apis.php"
+					],
+					"query": [
+						{
+							"key": "TOKEN",
+							"value": "j2Srmh"
+						},
+						{
+							"key": "TYPE",
+							"value": "USER_OVERALL_TOTAL"
+						}
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "SELECT - POST_OVERALL_TOTAL",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dart\",\n    \"released_year\": 2011,\n    \"githut_rank\": 13,\n    \"pypl_rank\": 20,\n    \"tiobe_rank\": 25\n}"
+				},
+				"url": {
+					"raw": "http://localhost/Post.e/languages/php/apis.php?TOKEN=j2Srmh&TYPE=POST_OVERALL_TOTAL",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Post.e",
+						"languages",
+						"php",
+						"apis.php"
+					],
+					"query": [
+						{
+							"key": "TOKEN",
+							"value": "j2Srmh"
+						},
+						{
+							"key": "TYPE",
+							"value": "POST_OVERALL_TOTAL"
+						}
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "SELECT - POST_TOTAL_BY_PROF",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dart\",\n    \"released_year\": 2011,\n    \"githut_rank\": 13,\n    \"pypl_rank\": 20,\n    \"tiobe_rank\": 25\n}"
+				},
+				"url": {
+					"raw": "http://localhost/Post.e/languages/php/apis.php?TOKEN=j2Srmh&TYPE=POST_TOTAL_BY_PROF",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Post.e",
+						"languages",
+						"php",
+						"apis.php"
+					],
+					"query": [
+						{
+							"key": "TOKEN",
+							"value": "j2Srmh"
+						},
+						{
+							"key": "TYPE",
+							"value": "POST_TOTAL_BY_PROF"
+						}
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "SELECT - FOLLOWER_TOTAL_BY_PROF",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dart\",\n    \"released_year\": 2011,\n    \"githut_rank\": 13,\n    \"pypl_rank\": 20,\n    \"tiobe_rank\": 25\n}"
+				},
+				"url": {
+					"raw": "http://localhost/Post.e/languages/php/apis.php?TOKEN=j2Srmh&TYPE=FOLLOWER_TOTAL_BY_PROF",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Post.e",
+						"languages",
+						"php",
+						"apis.php"
+					],
+					"query": [
+						{
+							"key": "TOKEN",
+							"value": "j2Srmh"
+						},
+						{
+							"key": "TYPE",
+							"value": "FOLLOWER_TOTAL_BY_PROF"
+						}
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "SELECT - FOLLOWING_TOTAL_BY_PROF",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dart\",\n    \"released_year\": 2011,\n    \"githut_rank\": 13,\n    \"pypl_rank\": 20,\n    \"tiobe_rank\": 25\n}"
+				},
+				"url": {
+					"raw": "http://localhost/Post.e/languages/php/apis.php?TOKEN=j2Srmh&TYPE=FOLLOWING_TOTAL_BY_PROF",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Post.e",
+						"languages",
+						"php",
+						"apis.php"
+					],
+					"query": [
+						{
+							"key": "TOKEN",
+							"value": "j2Srmh"
+						},
+						{
+							"key": "TYPE",
+							"value": "FOLLOWING_TOTAL_BY_PROF"
+						}
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "SELECT - FOLLOWER_ARRAY_BY_PROF",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dart\",\n    \"released_year\": 2011,\n    \"githut_rank\": 13,\n    \"pypl_rank\": 20,\n    \"tiobe_rank\": 25\n}"
+				},
+				"url": {
+					"raw": "http://localhost/Post.e/languages/php/apis.php?TOKEN=j2Srmh&TYPE=FOLLOWER_ARRAY_BY_PROF",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Post.e",
+						"languages",
+						"php",
+						"apis.php"
+					],
+					"query": [
+						{
+							"key": "TOKEN",
+							"value": "j2Srmh"
+						},
+						{
+							"key": "TYPE",
+							"value": "FOLLOWER_ARRAY_BY_PROF"
+						}
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "SELECT - FOLLOWING_ARRAY_BY_PROF",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dart\",\n    \"released_year\": 2011,\n    \"githut_rank\": 13,\n    \"pypl_rank\": 20,\n    \"tiobe_rank\": 25\n}"
+				},
+				"url": {
+					"raw": "http://localhost/Post.e/languages/php/apis.php?TOKEN=j2Srmh&TYPE=FOLLOWING_ARRAY_BY_PROF",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Post.e",
+						"languages",
+						"php",
+						"apis.php"
+					],
+					"query": [
+						{
+							"key": "TOKEN",
+							"value": "j2Srmh"
+						},
+						{
+							"key": "TYPE",
+							"value": "FOLLOWING_ARRAY_BY_PROF"
+						}
+					]
+				},
+				"description": "POST"
+			},
+			"response": []
+		}
+	]
+}
