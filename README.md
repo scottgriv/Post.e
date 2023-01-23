@@ -35,7 +35,7 @@ I had two goals when I originally started this project:
     - I started building the application back-end with ``PHP`` because its easy for others to understand, in the future, I'm going to try to utilize languages like ``Go`` and ``Node.js``. The multithreading capabilities of these languages to significantly speed up server request & response processing makes them an obvious choice to work on next.
     - I've realized now, by open-sourcing it, there's an opportunity for others to learn and contribute to it as well.
     
-*I know this is a lengthy README, but I want to explain every detail of the application for teaching/learning purposes. If this repo gains traction, I will add a lot of these details into github-pages/documentation to remove clutter in the README. I appreciate it if you make it to the end!*
+*I know this is a lengthy README, but I want to explain every detail of the application for teaching/learning purposes. If this repo gains traction, I will add a lot of these details into github-pages/documentation or seperate markdown file to remove clutter in the README. I appreciate it if you make it to the end!*
 
 ## Definitions:
 > A **Post** is any message posted to **Post.e** which contains text and/or attachments that may contain photos, videos, or a wide variety of file types. View the `extension` table in the database to view the supported file types. Tap the Post button to post the message to your profile.
