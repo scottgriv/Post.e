@@ -20,11 +20,11 @@
 - [License](#license)
 - [Credit](#credit)
 
-<img src="./images/phone_feed.gif" width="19%" height="19%"/> <!-- Done -->
-<img src="./images/phone_post.gif" width="19%" height="19%"/> <!-- Done -->
-<img src="./images/phone_splash.png" width="19%" height="19%"/> <!-- Done -->
-<img src="./images/phone_profile.gif" width="19%" height="19%"/> <!-- Done -->
-<img src="./images/phone_interaction.gif" width="19%" height="19%"/> <!-- Done -->
+<img src="./images/phone_feed.gif" width="19%" height="19%"/>
+<img src="./images/phone_post.gif" width="19%" height="19%"/>
+<img src="./images/phone_splash.png" width="19%" height="19%"/>
+<img src="./images/phone_profile.gif" width="19%" height="19%"/>
+<img src="./images/phone_interaction.gif" width="19%" height="19%"/>
 
 ## Background Story
 
