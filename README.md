@@ -158,6 +158,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - This will be used to connect to the database in all language variations. 
 - Ensure the proper ports are open for your `localhost` web server and database.
 - Run the **Post.e** app in `Xcode` located in the `mobile/ios` folder.
+    - Wait for the required packages to download in Swift Package Manager (SPM).
     - Change your scheme to `Post.e-Test` to view Profile ID and Post ID values in the Tableview.
     - **Post.e** was tested with the following devices/simulators:
         - iPhone 14 Pro Max
