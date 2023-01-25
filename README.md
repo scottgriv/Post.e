@@ -1,6 +1,6 @@
 ![App Logo](./docs/images/demo_banner.png)
 
-[![Swift](https://img.shields.io/badge/Swift-5-orange?style=for-the-badge&logo=swift)](https://swiftversion.net/)
+[![Swift](https://img.shields.io/badge/Swift-5.7-orange?style=for-the-badge&logo=swift)](https://swiftversion.net/)
 [![iOS](https://img.shields.io/badge/iOS-16.2-red?style=for-the-badge&logo=apple)](https://support.apple.com/en-us/HT213407)
 [![watchOS](https://img.shields.io/badge/watchOS-9.1-green?style=for-the-badge&logo=apple)](https://support.apple.com/en-us/HT213436)
 [![Email](https://img.shields.io/badge/email-contact_me-9cf?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
