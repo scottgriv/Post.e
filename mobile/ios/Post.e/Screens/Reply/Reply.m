@@ -1112,6 +1112,7 @@ static NSString *nibIdentifier4 = @"UnavailableCell";
                     
                     if (myHeader.postsReplyCount == 1)  {
                         myHeader.postsReplyCount = 0;
+                        myHeader.postsReplyFlag = NO;
                     } else {
                         myHeader.postsReplyCount = myHeader.postsReplyCount - 1;
                     }

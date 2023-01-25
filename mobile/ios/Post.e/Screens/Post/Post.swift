@@ -781,7 +781,7 @@ class Post: UIViewController, UITextViewDelegate, UITableViewDelegate, UITableVi
                         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
                         let modDateString = dateFormatter.string(from: postModDate!)
                         
-                        print("postModDate: \(postModDate)")
+                        print("postModDate: \(String(describing: postModDate))")
                         
                         postAttachDict[String(i)] = ["post_attachment_file_name" : myPost.postAttachmentFileName, "post_attachment_file_extension" : myPost.postAttachmentFileExtension, "post_attachment_file_size" : myPost.postAttachmentFileSize, "post_attachment_creation_date" : createDateString, "post_attachment_modification_date" : modDateString]
                         

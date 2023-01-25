@@ -26,7 +26,7 @@ class About: UIViewController, MFMailComposeViewControllerDelegate {
         aboutDeveloper.text = instanceOfAppInfo.aboutDeveloper
         aboutContact.setTitle(instanceOfAppInfo.aboutContactEmail, for: .normal)
         aboutWebsite.setTitle(instanceOfAppInfo.aboutContactWebsite, for: .normal)
-        aboutCopyright.text = "© \(instanceOfAppInfo.currentYear) \(instanceOfAppInfo.aboutDeveloper). \n All Rights Reserved."
+        aboutCopyright.text = "Copyright © \(instanceOfAppInfo.currentYear) \(instanceOfAppInfo.aboutDeveloper). \n All Rights Reserved."
     }
     
     @IBAction func launchEmail(sender: AnyObject) {

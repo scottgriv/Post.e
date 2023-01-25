@@ -63,7 +63,7 @@
 "Lci-sN-GcZ.text" = "Current Device Language:";
 
 /* Class = "UILabel"; text = "Developer:"; ObjectID = "PLI-KB-tB5"; */
-"PLI-KB-tB5.text" = "Developer:";
+"PLI-KB-tB5.text" = "Author:";
 
 /* Class = "UIButton"; normalTitle = "Test.pdf"; ObjectID = "PPV-VE-h5G"; */
 "PPV-VE-h5G.normalTitle" = "Test.pdf";

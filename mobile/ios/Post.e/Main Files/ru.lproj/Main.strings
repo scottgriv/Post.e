@@ -60,7 +60,7 @@
 "N2g-CQ-OTh.normalTitle" = "Новое";
 
 /* Class = "UILabel"; text = "Developer:"; ObjectID = "PLI-KB-tB5"; */
-"PLI-KB-tB5.text" = "разработчик:";
+"PLI-KB-tB5.text" = "Автор:";
 
 /* Class = "UIButton"; normalTitle = "Test.pdf"; ObjectID = "PPV-VE-h5G"; */
 "PPV-VE-h5G.normalTitle" = "Test.pdf";

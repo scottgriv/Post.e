@@ -1,12 +1,14 @@
-![App Logo](./images/demo_banner.png)
+![App Logo](./docs/images/demo_banner.png)
 
-![Swift](https://img.shields.io/badge/Swift-5-orange?style=for-the-badge&logo=swift)
-![iOS](https://img.shields.io/badge/iOS-16.2-red?style=for-the-badge&logo=apple)
-![watchOS](https://img.shields.io/badge/watchOS-9.1-green?style=for-the-badge&logo=apple)
+[![Swift](https://img.shields.io/badge/Swift-5-orange?style=for-the-badge&logo=swift)](https://swiftversion.net/)
+[![iOS](https://img.shields.io/badge/iOS-16.2-red?style=for-the-badge&logo=apple)](https://support.apple.com/en-us/HT213407)
+[![watchOS](https://img.shields.io/badge/watchOS-9.1-green?style=for-the-badge&logo=apple)](https://support.apple.com/en-us/HT213436)
 [![Email](https://img.shields.io/badge/email-contact_me-9cf?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
 [![BuyMeACoffee](https://img.shields.io/badge/donate-buy_me_a_coffee-yellow?style=for-the-badge&logo=buymeacoffee&color=ffdd00)](https://www.buymeacoffee.com/scottgriv)
 
-**Post.e** is a multi-language "how to build" social media application.
+-------
+
+**Post.e** is a fully functional, multi-language, "how to build" social media application.
 
 - [Background Story](#background-story)
 - [Definitions](#definitions)
@@ -20,7 +22,7 @@
 - [License](#license)
 - [Credit](#credit)
 
-<img src="./images/phone_feed.gif" width="19%" height="19%"/><img src="./images/phone_post.gif" width="19%" height="19%"/><img src="./images/phone_splash.png" width="19%" height="19%"/><img src="./images/phone_profile.gif" width="19%" height="19%"/><img src="./images/phone_interaction.gif" width="19%" height="19%"/>
+<img src="./docs/images/phone_feed.gif" width="19%" height="19%"/><img src="./docs/images/phone_post.gif" width="19.1%" height="19%"/><img src="./docs/images/phone_splash.png" width="19.05%" height="19%"/><img src="./docs/images/phone_profile.gif" width="19.05%" height="19%"/><img src="./docs/images/phone_interaction.gif" width="19.05%" height="19%"/>
 
 ## Background Story
 
@@ -54,7 +56,7 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 
 ## Features:
 --- 
-<img src="./images/phone_login-register.gif" width="19%" height="19%"/>
+<img src="./docs/images/phone_login-register.gif" width="19%" height="19%"/>
 
 - **Login & Register Screens:** 
     - Single Sign-On (SSO) capabilities by using a combination of Swift's [UserDefaults](https://developer.apple.com/documentation/foundation/userdefaults) class and server side session handling. Login once then automatically login in the future without signing in (unless, of course, you log out of the app which kills the active session in the `session` table).
@@ -63,12 +65,12 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Registering a User will create a new folder in the `server/uploads` folder using the new `Prof_ID` column value, which is an `AUTO_INCREMENT` column in the database (Posts work in this same fashion).
     - A unique `ID` is also generated using the `encoder.[language]` file using `Base 64 Encoding` to produce a unique external facing `ID`, stored in the database under the `Prof_Key` or `Post_Key` columns, that can be used to share Posts or Profiles in the future.
 ---
-<img src="./images/phone_config.gif" width="19%" height="19%"/>
+<img src="./docs/images/phone_config.gif" width="19%" height="19%"/>
 
 - **Configure Programming Language Screens:** <br>
     - Pick the server side language you want **Post.e** to use. This will route the requests to the toggled language folder.
 ---
-<img src="./images/phone_feed.gif" width="19%" height="19%"/>
+<img src="./docs/images/phone_feed.gif" width="19%" height="19%"/>
 
 - **Feed Screen:** <br>
     - Sort Posts by *Newest*:
@@ -79,22 +81,23 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
         - `WHERE Post_Love_Count DESC, Post_Pin_Count DESC, Post_Reply_Count, Post_Created DESC`.
     - Click on the Profile name to segue to the user Profile screen.
 ---
-<img src="./images/phone_interaction.gif" width="19%" height="19%"/>
+<img src="./docs/images/phone_interaction.gif" width="19%" height="19%"/>
 
 - **Interaction Screen:** <br>
     - View New Users on the App.
     - Click on the Profile name to segue to the user Profile screen.
     - Follow or Unfollow users directly from this screen.
 ---
-<img src="./images/phone_profile.gif" width="19%" height="19%"/>
+<img src="./docs/images/phone_profile.gif" width="19%" height="19%"/>
 
 - **Profile Screen:** <br>
     - Interactive Follower, Following, and Post count buttons that will segue to the Interaction screen when clicked.
+        - The Post count is not a button, its a Post total (including Replies) counter only.
     - Profile picture display.
     - Click the Profile tab icon to scroll to the top.
     - Pull refresh to get the most recent Posts.
     - Post button to create new Posts.
-    - Order your Posts on your Profile Feed by: Newest, Oldest, Loved, Pinned, Replied counts in descending order.
+    - Sort Posts on the Profile feed by: Newest, Oldest, Loved, Pinned, and Replied counts in descending order.
     - Edit Profile
         - Change your Profile picture (take a photo or select one from your library).
         - Remove your Profile picture - setting it to the default placeholder image.
@@ -103,12 +106,23 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Scroll to the bottom of the Table, Posts will load in 25 Post chunks. If the Post # > 25, a request will be sent to the server and an activity indicator will be shown in the Table footer as it fetches the next chunk of 25.
     - Within the Post Cell:
         - Preview & Save Attachments.
-        - Pin a Post (which will be displayed on your own Profile).
+        - Pin or Unpin a Post.
+            - Pins will be displayed on your Profile.
+            - You cannot Pin a Reply or Posts that you created.
+            - Only Posts displayed on Profiles or your Feed can be Pinned.
         - Reply to a Post.
-        - Love a Post.
+        - Love or Unlove a Post.
+        - Delete your own Posts.
     - Click on the Profile name to segue to the user Profile screen.
 ---
-<img src="./images/phone_post.gif" width="19%" height="19%"/><img src="./images/phone_attachments.png" width="19%" height="19%"/>
+<img src="./docs/images/phone_reply_1.png" width="19%" height="19%"/><img src="./docs/images/phone_reply_2.png" width="19%" height="19%"/>
+
+- **Reply Screen:** <br>
+    - Reply to a Post on a dedicated screen with the Post you're replying to in the header.
+    - Reply to a Reply (there is no limit on the Reply depth).
+    - Sort Posts on the Reply feed by: Newest, Oldest, Loved, and Replied counts in descending order.
+---
+<img src="./docs/images/phone_post.gif" width="19.05%" height="19%"/><img src="./docs/images/phone_attachments.png" width="19%" height="19%"/>
 
 - **Post Screen:** <br>
     - Type up a Post.
@@ -116,8 +130,9 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Add Photos/Videos from your Camera or Photo Library.
     - Add Attachments (**Post.e** comes with a demo directory with a few files ready to select) - see screenshot above.
     - Submit the Post to the server.
+    - Haptic Feedback and Audible Post Alert after a Post has been successfully sent to the server.
 ---
-<img src="./images/phone_settings-logout.gif" width="19%" height="19%"/>
+<img src="./docs/images/phone_settings-logout.gif" width="19%" height="19%"/>
 
 - **Settings:** <br>
     - About section to view the current **Post.e** version number (derived from the `info.plist` value of `CFBundleShortVersionString`).
@@ -127,17 +142,18 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
     - Change your Password
     - Logout of the Application (which will also kill the session on the server).
 ---
- <img src="./images/watch_support.gif" width="45%" height="45%"/>
+ <img src="./docs/images/watch_support.gif" width="45%" height="45%"/>
 
 - **watchOS Support:** <br>
     - Post to your Profile using audio to text or by typing in the text using the watch keyboard.
+    - Haptic Feedback and Audible Post Alert after a Post has been successfully sent to the server.
 ---
-<img src="./images/phone_language_support.gif" width="19%" height="19%"/><img src="./images/watch_language_support.png" width="19%" height="19%"/>
+<img src="./docs/images/phone_language_support.gif" width="19%" height="19%"/><img src="./docs/images/watch_language_support.png" width="19%" height="19%"/>
 
 - **Language Support:** <br>
     - English and Russian language support using [Localization](https://developer.apple.com/localization/). Query the `language` table in the database to view the supported languages.
 ---
-<img src="./images/phone_dark_support.gif" width="19%" height="19%"/>
+<img src="./docs/images/phone_dark_support.gif" width="19%" height="19%"/>
 
 - **Dark Mode Support:** <br>
     - Easily toggle Designs between Light and Dark Mode.
@@ -145,7 +161,8 @@ Currently, the `Post.swift` file contains the static values mentioned above. In 
 - **API:**
     - Navigate to the `api` folder to access the API collection `.json` file used to import APIs into Postman. 
     - Open the `apis.[language]` file to view the list of available APIs and usage. 
-    
+---
+
 ## Getting Started
 - Download the application from here, Github.
 - Place the `server` file on your web server.
@@ -220,6 +237,10 @@ Thanks and enjoy! (and I appreciate it if you've read this far - you're a legend
 ## Credit
 **Author:** Scott Grivner <br>
 **Email:** scott.grivner@gmail.com <br>
-**Website:** [scottgrivner.dev](https://www.scottgriv.dev) <br>
+**Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
 **Reference:** [Main Branch](https://github.com/scottgriv/Post.e) <br>
-<img src="./images/demo_icon.png" width="5%" height="5%"/>
+<div align="center">
+    <a href="https://github.com/scottgriv/Post.e" target="_blank">
+        <img src="./docs/images/demo_app_icon.png"/>
+    </a>
+</div>

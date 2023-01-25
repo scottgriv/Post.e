@@ -1097,8 +1097,18 @@ static NSString *nibIdentifier4 = @"UnavailableCell";
                  {
                     
                     [self.profileTable deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-                    [self setupTableViewHeader];
                     
+                    DataManager *myProfile = [self.postHeaderArray objectAtIndex:0];
+                    
+                    if (myProfile.profilePostCount == 1)  {
+                        myProfile.profilePostCount = 0;
+                    } else {
+                        myProfile.profilePostCount = myProfile.profilePostCount - 1;
+                    }
+                    
+                    
+                    [self setupTableViewHeader];
+                    [self.profileTable reloadData];
                 }
                                 completion: nil];
                 
