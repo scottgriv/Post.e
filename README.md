@@ -23,9 +23,9 @@
 - [Programming Languages](#programming-languages)
 - [What's Inside?](#whats-inside)
 - [Getting Started](#getting-started)
-- [Project](#project)
 - [Future Plans](#future-plans)
 - [Contribution](#contribution)
+- [Project](#project)
 - [License](#license)
 - [Credit](#credit)
 
@@ -321,10 +321,6 @@ A quick look at the top-level files and directories in this project.
 - Passwords are hashed using `SHA512` and `Salted`.
 - The demo accounts consist of quotes from famous individuals that have inspired me through their works and words.
 
-## Project
-
-Please reference the [GitHub Project](https://github.com/users/scottgriv/projects/3) tab inside this Repo to get a good understanding of where I'm currently at with the overall project. Bugs and Enhancements will also be tracked there as well.
-
 ## Future Plans
 
 - Besides making **Post.e** compatible with more back-end languages, devices, and the tasks mentioned in the Backlog (i.e. Editing Posts, Push Notifications, etc.), I'm considering eventually hosting it on a server so it's not constrained to a local environment. This way, the demo will have a sandbox for everyone to interact in. I don't plan on making it an actual social media app - it was created as a learning tool for all, and I'd like to keep it that way.
@@ -338,6 +334,10 @@ I'm looking forward to working with others on this project over time (of course,
 Feel free to reach out to me using my email below if you have any questions or suggestions.
 
 Thanks and enjoy! (and I appreciate it if you've read this far - you're a legend!)
+
+## Project
+
+Please reference the [GitHub Project](https://github.com/users/scottgriv/projects/3) tab inside this Repo to get a good understanding of where I'm currently at with the overall project. Bugs and Enhancements will also be tracked there as well.
 
 ## License
 **Post.e** is released under the **GNU General Public License v3.0 License**. [See LICENSE](LICENSE) for details.
