@@ -323,7 +323,7 @@ A quick look at the top-level files and directories in this project.
 
 ## Project
 
-Please reference the GitHub Project tab inside this Repo to get a good understanding of where I'm currently at with the overall project. Issues and enhancements will also be tracked there as well.
+Please reference the [GitHub Project](https://github.com/users/scottgriv/projects/3) tab inside this Repo to get a good understanding of where I'm currently at with the overall project. Bugs and Enhancements will also be tracked there as well.
 
 ## Future Plans
 
@@ -333,14 +333,14 @@ Please reference the GitHub Project tab inside this Repo to get a good understan
 
 ## Contribution
 
-I'm looking forward to working with others on this project over time (of course, when time is permitted) and seeing where it goes. Feel free to Fork the Repo and submit a Pull Request if you've contributed to it in some way. If you're going to Fork the project or Clone it for your own purposes, all I ask is that you follow the attached license as well as giving me credit using the below **Credit** block. I spent a lot of time on this and I'm proud of how it turned out. I'm more than happy to open-source it to help others as long as credit is given and no profit is gained from it in return; this is "the people's" social media app.
+I'm looking forward to working with others on this project over time (of course, when time is permitted) and seeing where it goes. Feel free to Fork the Repo and submit a Pull Request if you've contributed to it in some way (and don't forget to add yourself to the [CREDIT](CREDIT) document as well). If you're going to Fork the project or Clone the project for your own purposes, all I ask is that you follow the attached license as well as giving me credit using the below **Credit** block. I spent a lot of time on this and I'm proud of how it turned out. I'm more than happy to open-source it to help others as long as credit is given and no profit is gained from it in return; this is "the people's" social media app.
 
 Feel free to reach out to me using my email below if you have any questions or suggestions.
 
 Thanks and enjoy! (and I appreciate it if you've read this far - you're a legend!)
 
 ## License
-**Post.e** is released under the **GNU GPLv3 License**. [See LICENSE](LICENSE) for details.
+**Post.e** is released under the **GNU General Public License v3.0 License**. [See LICENSE](LICENSE) for details.
 
 ## Credit
 **Author:** Scott Grivner <br>
