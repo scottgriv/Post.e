@@ -1,4 +1,5 @@
 **/.DS_Store
+Icon?
 Post.e.code-workspace
 /server/languages/rs/target
-Icon?
+/server/languages/rs/Cargo.lock
