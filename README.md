@@ -8,7 +8,7 @@
 
 -------
 
-**Post.e** is a fully functional, multi-language, "how to build" social media application.
+**Post.e** is a fully functional, multi-programming language, "how-to-build" social media application.
 
 <img src="./docs/images/phone_feed.gif" width="19%" height="19%"/><img src="./docs/images/phone_post.gif" width="19.1%" height="19%"/><img src="./docs/images/phone_splash.png" width="19.05%" height="19%"/><img src="./docs/images/phone_profile.gif" width="19.05%" height="19%"/><img src="./docs/images/phone_interaction.gif" width="19.05%" height="19%"/>
 
