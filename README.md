@@ -299,7 +299,7 @@ A quick look at the top-level files and directories in this project.
 - Download the application from here, Github.
 - Place the `server` file on your web server.
 - Ensure you have the proper language frameworks and versions installed to integrate **Post.e** with. 
-    - See [Programming Languages](#programming-languages) below for the current list of version numbers.
+    - See [Programming Languages](#programming-languages) above for the current list of version numbers.
 - Import the provided `MySQL` database structure into your database using either the `db/mysql/post-e.sql` file or the `db/mysql/post-e_demo.sql` file.
     - The `post-e.sql` file is a blank/empty database/sandbox.
     - The `post-e_demo.sql` file contains sample data (recommended for demoing or learning purposes).
