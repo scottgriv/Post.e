@@ -3,3 +3,4 @@ Icon?
 Post.e.code-workspace
 /server/languages/rs/target
 /server/languages/rs/Cargo.lock
+*.xcuserstate
