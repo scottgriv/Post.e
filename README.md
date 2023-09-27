@@ -1,12 +1,35 @@
-![App Logo](./docs/images/demo_banner.png)
+<!-- Begin README -->
 
-[![Swift](https://img.shields.io/badge/Swift-5.7-orange?style=for-the-badge&logo=swift)](https://swiftversion.net/)
-[![iOS](https://img.shields.io/badge/iOS-16.2-red?style=for-the-badge&logo=apple)](https://support.apple.com/en-us/HT213407)
-[![watchOS](https://img.shields.io/badge/watchOS-9.1-green?style=for-the-badge&logo=apple)](https://support.apple.com/en-us/HT213436)
-[![Email](https://img.shields.io/badge/email-contact_me-9cf?style=for-the-badge&logo=gmail)](mailto:scott.grivner@gmail.com)
-[![BuyMeACoffee](https://img.shields.io/badge/donate-buy_me_a_coffee-yellow?style=for-the-badge&logo=buymeacoffee&color=ffdd00)](https://www.buymeacoffee.com/scottgriv)
+![App Logo](./docs/images/banner_large.png)
+
+<p align="center">
+    <a href="https://swiftversion.net/">
+        <img src="https://img.shields.io/badge/Swift-5.7-orange?style=for-the-badge&logo=swift" alt="Swift Badge" />
+    </a>
+    <a href="https://support.apple.com/en-us/HT213407">
+        <img src="https://img.shields.io/badge/iOS-16.2-ACB3B6?style=for-the-badge&logo=apple" alt="iOS Badge" />
+    </a>
+    <a href="https://support.apple.com/en-us/HT213436">
+        <img src="https://img.shields.io/badge/watchOS-9.1-ACB3B6?style=for-the-badge&logo=apple" alt="Apple Watch Badge" />
+    </a>
+    <br>
+    <a href="https://github.com/scottgriv">
+        <img src="https://img.shields.io/badge/github-follow-9031AC?style=for-the-badge&logo=github&color=9031AC" alt="GitHub Badge" />
+    </a>
+    <a href="mailto:scott.grivner@gmail.com">
+        <img src="https://img.shields.io/badge/gmail-contact me-DC4233?style=for-the-badge&logo=gmail" alt="Email Badge" />
+    </a>
+    <a href="https://www.buymeacoffee.com/scottgriv">
+        <img src="https://img.shields.io/badge/buy me a coffee-support me-FEDE1F?style=for-the-badge&logo=buymeacoffee&color=FEDE1F" alt="BuyMeACoffee Badge" />
+    </a>
+    </a>
+        <a href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines">
+        <img src="https://img.shields.io/badge/PRG-Gold Project-FFD700?style=for-the-badge&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjYuMDAwMDAwcHQiIGhlaWdodD0iMzQuMDAwMDAwcHQiIHZpZXdCb3g9IjAgMCAyNi4wMDAwMDAgMzQuMDAwMDAwIgogcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwzNC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiNGRkQ3MDAiIHN0cm9rZT0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzMjggYy04IC04IC0xMiAtNTEgLTEyIC0xMzUgMCAtMTA5IDIgLTEyNSAxOSAtMTQwIDQyIC0zOCA0OAotNDIgNTkgLTMxIDcgNyAxNyA2IDMxIC0xIDEzIC03IDIxIC04IDIxIC0yIDAgNiAyOCAxMSA2MyAxMyBsNjIgMyAwIDE1MCAwCjE1MCAtMTE1IDMgYy04MSAyIC0xMTkgLTEgLTEyOCAtMTB6IG0xMDIgLTc0IGMtNiAtMzMgLTUgLTM2IDE3IC0zMiAxOCAyIDIzCjggMjEgMjUgLTMgMjQgMTUgNDAgMzAgMjUgMTQgLTE0IC0xNyAtNTkgLTQ4IC02NiAtMjAgLTUgLTIzIC0xMSAtMTggLTMyIDYKLTIxIDMgLTI1IC0xMSAtMjIgLTE2IDIgLTE4IDEzIC0xOCA2NiAxIDc3IDAgNzIgMTggNzIgMTMgMCAxNSAtNyA5IC0zNnoKbTExNiAtMTY5IGMwIC0yMyAtMyAtMjUgLTQ5IC0yNSAtNDAgMCAtNTAgMyAtNTQgMjAgLTMgMTQgLTE0IDIwIC0zMiAyMCAtMTgKMCAtMjkgLTYgLTMyIC0yMCAtNyAtMjUgLTIzIC0yNiAtMjMgLTIgMCAyOSA4IDMyIDEwMiAzMiA4NyAwIDg4IDAgODggLTI1eiIvPgo8L2c+Cjwvc3ZnPgo=" alt="Gold PRG Badge" />
+    </a>
+</p>
 
 -------
+# Post.e
 
 **Post.e** is a fully functional, multi-programming language, "how-to-build" social media application.
 
@@ -348,13 +371,15 @@ Please reference the [GitHub Project](https://github.com/users/scottgriv/project
 ## License
 **Post.e** is released under the **GNU General Public License v3.0 License**. [See LICENSE](LICENSE) for details.
 
-## Credit
+## Credits
 **Author:** Scott Grivner <br>
 **Email:** scott.grivner@gmail.com <br>
 **Website:** [scottgrivner.dev](https://www.scottgrivner.dev) <br>
 **Reference:** [Main Branch](https://github.com/scottgriv/Post.e) <br>
 <div align="center">
     <a href="https://github.com/scottgriv/Post.e" target="_blank">
-        <img src="./docs/images/demo_app_icon.png"/>
+        <img src="./docs/images/icon-rounded.png" width="100" height="100"/>
     </a>
 </div>
+
+<!-- End README -->
