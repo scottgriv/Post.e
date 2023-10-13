@@ -1,4 +1,0 @@
-Repository Tier: Gold
-
-# This file connects this repository to the PRG guideline and catagorization system.
-# Visit https://github.com/scottgriv/PRG-Personal-Repository-Guidelines for more details.
