@@ -5,7 +5,7 @@ This repository is catagorized under the **PRG** system.
 ## Project Information
 
 Repository Tier: Gold <br>
-Technology: iOS, watchOS, UIKit, Objective-C, Swift, PHP <br>
+Technology: iOS, watchOS, UIKit, Objective-C, Swift, PHP, MySQL <br>
 Category: Mobile Application <br>
 Order: 3 <br>
 
