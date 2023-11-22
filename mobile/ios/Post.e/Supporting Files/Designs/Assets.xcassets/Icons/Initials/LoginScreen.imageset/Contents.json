@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "iPhone_1080x1920.png",
+      "filename" : "LoginScreen@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "iPhone_1080x1920-1.png",
+      "filename" : "LoginScreen@3x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "iPhone_1080x1920-2.png",
+      "filename" : "LoginScreen@3x 1.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

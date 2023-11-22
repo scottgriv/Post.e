@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Post-Unselected-3.png",
+      "filename" : "Post_New@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Post-Unselected-4.png",
+      "filename" : "Post_New@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Post-Unselected-2.png",
+      "filename" : "Post_New@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
