@@ -98,8 +98,8 @@
 /* Class = "UIButton"; normalTitle = " "; ObjectID = "W5w-dc-etd"; */
 "W5w-dc-etd.normalTitle" = " ";
 
-/* Class = "UILabel"; text = "Post.e v1.0.0"; ObjectID = "Ww9-T2-hCf"; */
-"Ww9-T2-hCf.text" = "Post.e v1.0.0";
+/* Class = "UILabel"; text = "Post.e v1.1.0"; ObjectID = "Ww9-T2-hCf"; */
+"Ww9-T2-hCf.text" = "Post.e v1.1.0";
 
 /* Class = "UITextField"; placeholder = "Username"; ObjectID = "XCy-Hg-gMR"; */
 "XCy-Hg-gMR.placeholder" = "Имя пользователя";

@@ -81,8 +81,10 @@ class PassThrough: UIViewController, WCSessionDelegate {
             
         }
         
-        passThrough()
-        
+        // Pause on the Splash Screen
+        // DispatchQueue.main.asyncAfter(deadline: .now() + 30) { // Adjust the time interval as needed
+            self.passThrough()
+        //}
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
