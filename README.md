@@ -174,10 +174,12 @@ Below is a list of the main files and folders in this repository and their speci
     │        └─ posts # Posts folder
     │           └─ post_id # Post ID folder
     │              └─ file name # File name
-    ├─ .gitattributes # Git attributes file
     ├─ .gitignore # Git ignore file
-    ├─ LICENSE # License file
-    └─ README.md # README file
+    ├─ .gitattributes # Git attributes file
+    ├─ .github # GitHub folder                                                             
+    ├─ PRG.md # PRG Connection File
+    ├─ LICENSE # License file   
+    └─ README # This file   
 ```
 
 ## Application Functionality
