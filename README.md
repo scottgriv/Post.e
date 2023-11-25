@@ -33,11 +33,12 @@
 
 ## Table of Contents
 
+- [Features](#features)
 - [Background Story](#background-story)
 - [Definitions](#definitions)
 - [Getting Started](#getting-started)
 - [What's Inside?](#whats-inside)
-- [Features](#features)
+- [Application Functionality](#application-functionality)
     - [Login & Register Screens](#login--register-screens)
     - [Configure Programming Language Screens](#configure-programming-language-screens)
     - [Feed Screen](#feed-screen)
@@ -52,8 +53,8 @@
     - [API Support](#api-support)
     - [Interchange](#interchange)
     - [Database](#database)
+    - [Programming Languages](#programming-languages)
 - [Limitations](#limitations)
-- [Programming Languages](#programming-languages)
 - [Closing](#closing)
 - [What's Next?](#whats-next)
 - [Project](#project)
@@ -62,6 +63,13 @@
 - [License](#license)
 - [Credits](#credits)
 
+## Features
+
+- A mobile application written in Swift & Objective-C for the front-end and multiple back-end languages such as PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl.
+- Includes a back-end MySQL database, JSON interchange, and multiple out of the box APIs.
+- Designed to teach people how to build their own social media app in mind.
+- Create a user profile, follow other users, and post messages similar to Twitter.
+- Share content with other users by attaching photos, videos, documents, and files to your Posts.
 
 ## Background Story
 
@@ -76,7 +84,7 @@ I had two goals when I originally started this project:
     - I started building the application back-end with ``PHP`` because it's easy for others to understand. In the future, I'm going to try to utilize languages like ``Go`` and ``Node.js``. The multithreading capabilities of these languages to significantly speed up server request & response processing makes them an obvious choice to work on next.
     - I've realized now, by open-sourcing it, there's an opportunity for others to learn and contribute to it as well.
 
-## Definitions:
+## Definitions
 
 Here are some definitions to help you understand the terminology used in this document:
 
@@ -172,11 +180,13 @@ Below is a list of the main files and folders in this repository and their speci
     └─ README.md # README file
 ```
 
-## Features:
+## Application Functionality
+
+Below is a list of the main features and functionality of **Post.e**:
 
 ---------------
 
-### Login & Register Screens: 
+### Login & Register Screens
 
 <img src="./docs/images/phone_login-register.gif" width="19%" height="19%"/><br>
 
@@ -188,7 +198,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### Configure Programming Language Screens:
+### Configure Programming Language Screens
 
 <img src="./docs/images/phone_config.gif" width="19%" height="19%"/><br>
 
@@ -197,7 +207,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### Feed Screen:
+### Feed Screen
 
 <img src="./docs/images/phone_feed.gif" width="19%" height="19%"/><br>
 
@@ -211,7 +221,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### Interaction Screen:
+### Interaction Screen
 
 <img src="./docs/images/phone_interaction.gif" width="19%" height="19%"/><br>
 
@@ -221,7 +231,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### Profile Screen:
+### Profile Screen
 
 <img src="./docs/images/phone_profile.gif" width="19%" height="19%"/><br>
 
@@ -251,7 +261,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### Reply Screen:
+### Reply Screen
 
 <img src="./docs/images/phone_reply_1.png" width="19%" height="19%"/><img src="./docs/images/phone_reply_2.png" width="19%" height="19%"/><br>
 
@@ -261,7 +271,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### Post Screen:
+### Post Screen
 
 <img src="./docs/images/phone_post.gif" width="19.05%" height="19%"/><img src="./docs/images/phone_attachments.png" width="19%" height="19%"/><br>
 
@@ -274,7 +284,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### Settings Screen:
+### Settings Screen
 
 <img src="./docs/images/phone_settings-logout.gif" width="19%" height="19%"/><br>
 
@@ -287,7 +297,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### watchOS Support:
+### watchOS Support
 
 <img src="./docs/images/watch_support.gif" width="45%" height="45%"/><br>
 
@@ -296,7 +306,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### Language Support:
+### Language Support
 
 <img src="./docs/images/phone_language_support.gif" width="19%" height="19%"/><img src="./docs/images/watch_language_support.png" width="19%" height="19%"/><br>
 
@@ -304,7 +314,7 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### Dark Mode Support:
+### Dark Mode Support
 
 <img src="./docs/images/phone_dark_support.gif" width="19%" height="19%"/><br>
 
@@ -312,14 +322,14 @@ Below is a list of the main files and folders in this repository and their speci
 
 ---------------
 
-### API Support:
+### API Support
 
 - Navigate to the `api` folder to access the API collection `.json` file used to import APIs into Postman. 
 - Open the `apis.[language]` file to view the list of available APIs and usage. 
 
 ---------------
 
-### Interchange:
+### Interchange
 
 - **Post.e** uses URL encoded requests (passing the parameters in the URL) via `application/x-www-form-urlencoded`, i.e.:
 
@@ -339,7 +349,7 @@ For responses, **Post.e** uses JSON encoding via `application/json; charset=utf-
 
 ---------------
 
-### Database:
+### Database
 
 - **Post.e** uses the MariaDB flavor of MySQL named `post.e` or `post.e_demo`, depending which one you install. Below are the db specs using the schema inspector:
 
@@ -351,15 +361,6 @@ For responses, **Post.e** uses JSON encoding via `application/json; charset=utf-
 | Database Size (rough estimate) | 624.0 KiB          |
 
 ---------------
-
-## Limitations:
-
-**Posts** are limited to:
-- Post character limit: There is no hard limit for the number of characters, however, the database type and length is `VARCHAR(250)` and it cannot be `NULL`.
-- Attachment limit per Post: 9.
-- Max file size per Attachment: 1 gigabyte (GB) or 1,073,741,824 bytes.
-
-Currently, the `Post.swift` file contains the static values mentioned above. In the future, I'd like to sync this to the `parameter` table in the database for a more dynamic approach, including a max character limit for Posts and an alert message if the Post limit has been exceeded.
 
 ## Programming Languages
 
@@ -378,6 +379,17 @@ Below is a running list of languages currently supported by **Post.e**:
 |  ![Perl](https://img.shields.io/badge/Perl-open-critical?style=for-the-badge&logo=perl)                             | 5.30.3      |
 |  ![Java](https://img.shields.io/badge/Java-open-critical?style=for-the-badge)                                       | 17.0.5      |
 |  ![MariaDB](https://img.shields.io/badge/MariaDB-complete-success?style=for-the-badge&logo=mysql)                     | 10.4.21     |
+
+---------------
+
+## Limitations
+
+**Posts** are limited to:
+- Post character limit: There is no hard limit for the number of characters, however, the database type and length is `VARCHAR(250)` and it cannot be `NULL`.
+- Attachment limit per Post: 9.
+- Max file size per Attachment: 1 gigabyte (GB) or 1,073,741,824 bytes.
+
+Currently, the `Post.swift` file contains the static values mentioned above. In the future, I'd like to sync this to the `parameter` table in the database for a more dynamic approach, including a max character limit for Posts and an alert message if the Post limit has been exceeded.
 
 ## Closing
 
