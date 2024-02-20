@@ -21,7 +21,7 @@
 
 **Post.e** is a fully functional, multi-programming language, "how-to-build" social media application.
 
-- Create a user profile, follow other users, and post messages similar to Twitter. 
+- Create a user profile, follow other users, and post messages similar to Twitter/X. 
 - Share content with other users by attaching photos, videos, documents, and files to your Posts. 
 - Written in Swift & Objective-C for the front-end and multiple back-end languages such as PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl. 
 - Includes a back-end MySQL database, JSON interchange, and multiple out of the box APIs. 
@@ -68,13 +68,13 @@
 - A mobile application written in Swift & Objective-C for the front-end and multiple back-end languages such as PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl.
 - Includes a back-end MySQL database, JSON interchange, and multiple out of the box APIs.
 - Designed to teach people how to build their own social media app in mind.
-- Create a user profile, follow other users, and post messages similar to Twitter.
+- Create a user profile, follow other users, and post messages similar to Twitter/X.
 - Share content with other users by attaching photos, videos, documents, and files to your Posts.
 
 ## Background Story
 
 I had two goals when I originally started this project:
-1. Demonstrate how to make a "*Twitter-esque*" social media application.
+1. Demonstrate how to make a "*Twitter/X-esque*" social media application.
     - Many people underestimate the amount of time and work involved in making a social media application.
     - There's a lot of confusion around what the tech stack consists of (client-side code, back-end code, a database, and a web-server of some kind).
     - I wanted to shine a light on the above processes and the technology involved.
