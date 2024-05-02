@@ -94,7 +94,7 @@ Here are some definitions to help you understand the terminology used in this do
 
 ## Getting Started
 
-- Download the application from here, Github.
+- Download the application from here, GitHub.
 - Place the `server` file on your web server.
 - Ensure you have the proper language frameworks and versions installed to integrate **Post.e** with. 
     - See [Programming Languages](#programming-languages) above for the current list of version numbers.
@@ -106,7 +106,6 @@ Here are some definitions to help you understand the terminology used in this do
 - Ensure the proper ports are open for your `localhost` web server and database.
 - Run the **Post.e** app in `Xcode` located in the `mobile/ios` folder.
     - Wait for the required packages to download in Swift Package Manager (SPM).
-    - Change your scheme to `Post.e-Test` to view Profile ID and Post ID values in the Tableview.
     - **Post.e** was tested with the following devices/simulators:
         - iPhone 14 Pro Max
         - iPhone 14 Plus
@@ -120,10 +119,24 @@ Here are some definitions to help you understand the terminology used in this do
     - If you're using the empty database, you will have to build up the app database by registering new users.
 - Click Login! Enjoy!
 
+> [!IMPORTANT]
+> In the `Constants.m` file there is a `#TARGET_IPHONE_SIMULATOR` env variable. If you're using the Simulator, **Post.e.** will point towards your `localhost` / `127.0.0.1` server. 
+> If you're using a Device, you'll need to explicitly declare your laptop/server's IP on your network in the `#else` block. Make sure you swap `your_server_ip_address` with your server's IP address and keep the rest of the path the same.
+> If you're using a Device and the `post.e_demo` database, you will also have to update the paths located in the database tables to point correctly to the demo photos and attachments by calling a stored procedure called `p_update_urls('fromIP', 'toIP')`, see the example code block below.
+
+```
+CALL p_update_urls('localhost', 'your_server_ip_address')
+// or
+CALL p_update_urls('127.0.0.1', 'your_server_ip_address')
+```
+
 > [!NOTE]
-> All of the demo accounts in the database use the password above. 
+> All of the demo accounts in the database use thesame password mentioned above. 
 > Passwords are hashed using `SHA512` and `Salted`.
 > The demo accounts consist of quotes from famous individuals that have inspired me through their works and words.
+
+> [!TIP]
+> Change your scheme to `Post.e-Test` to view Profile ID and Post ID values in the tableview for debugging purposes.
 
 ## What's Inside?
 

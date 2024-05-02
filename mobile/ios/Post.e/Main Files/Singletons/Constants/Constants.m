@@ -17,8 +17,8 @@
 NSString * const baseURL = @"http://localhost/Post.e/server";
 #else
 NSString * const baseURL = @"http://your_server_ip_address/Post.e/server";
-//Ex. http://10.0.1.2/Post.e
-//Ex. http://192.168.0.2/Post.e
+//Ex. http://10.0.1.2/Post.e/server
+//Ex. http://192.168.0.2/Post.e/server
 #endif
 
 //Server Files

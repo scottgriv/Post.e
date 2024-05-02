@@ -58,3 +58,45 @@ Post.e.code-workspace
 /server/languages/rs/target
 /server/languages/rs/Cargo.lock
 *.xcuserstate
+
+# Xcode
+*.pbxuser
+*.mode1v3
+xcuserdata/
+project.xcworkspace/
+*.xccheckout
+*.xcscmblueprint
+
+# Derived data
+DerivedData/
+
+# Build products
+build/
+*.o
+*.dSYM.zip
+*.dSYM/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Carthage/Build
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace
+.swiftpm/xcode/xcuserdata/
+
+# Other files and settings
+*.moved-aside
+*.xcuserstate
+!default.xcconfig
+*.xcconfig
+.idea/
+*.swp
+*.swo
+*.DS_Store
+*.AppleDouble
+*.LS
