@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vx8-bV-1O9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vx8-bV-1O9">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -649,27 +649,49 @@
                                     <segue destination="BTR-CH-cWT" kind="presentation" identifier="Login_to_Config" id="kiD-ya-mcC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97C-9g-RUl">
+                                <rect key="frame" x="82" y="724" width="266" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="15"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Visit Post.e on GitHub">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="githubClicked:" destination="5LQ-1x-fI9" eventType="touchUpInside" id="xmq-j9-j9E"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GitHubLogo" translatesAutoresizingMaskIntoConstraints="NO" id="AzA-H3-TQW">
+                                <rect key="frame" x="302" y="730" width="20" height="20"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KHQ-Ed-Ybx"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="KHQ-Ed-Ybx" firstAttribute="trailing" secondItem="AzA-H3-TQW" secondAttribute="trailing" constant="108" id="2LU-gk-6xv"/>
                             <constraint firstItem="Gj9-BY-AVL" firstAttribute="top" secondItem="XCy-Hg-gMR" secondAttribute="bottom" constant="8" symbolic="YES" id="4JX-gl-lfS"/>
                             <constraint firstItem="zkO-N8-B83" firstAttribute="bottom" secondItem="Xik-Ly-8mS" secondAttribute="bottom" id="4un-Lc-XEN"/>
                             <constraint firstItem="XCy-Hg-gMR" firstAttribute="leading" secondItem="Gj9-BY-AVL" secondAttribute="leading" id="6PG-bY-CrV"/>
                             <constraint firstAttribute="trailing" secondItem="y7r-Qp-r2O" secondAttribute="trailing" id="9VT-L4-aho"/>
                             <constraint firstItem="uSn-el-eEK" firstAttribute="leading" secondItem="KHQ-Ed-Ybx" secondAttribute="leading" constant="82" id="A5k-MD-dVG"/>
+                            <constraint firstItem="KHQ-Ed-Ybx" firstAttribute="bottom" secondItem="AzA-H3-TQW" secondAttribute="bottom" constant="182" id="D1h-CB-F2z"/>
                             <constraint firstItem="zkO-N8-B83" firstAttribute="centerX" secondItem="Xik-Ly-8mS" secondAttribute="centerX" id="GZf-2v-MIx"/>
                             <constraint firstItem="uSn-el-eEK" firstAttribute="trailing" secondItem="XCy-Hg-gMR" secondAttribute="trailing" id="Hxg-N0-G1b"/>
                             <constraint firstItem="uSn-el-eEK" firstAttribute="top" secondItem="KHQ-Ed-Ybx" secondAttribute="top" constant="145" id="IYR-MH-Xtk"/>
                             <constraint firstItem="lN7-E1-eCE" firstAttribute="top" secondItem="qcy-tC-puV" secondAttribute="bottom" constant="8" symbolic="YES" id="Ion-1a-uqM"/>
+                            <constraint firstItem="97C-9g-RUl" firstAttribute="leading" secondItem="lN7-E1-eCE" secondAttribute="leading" id="JuJ-TX-1mv"/>
                             <constraint firstItem="XCy-Hg-gMR" firstAttribute="trailing" secondItem="Gj9-BY-AVL" secondAttribute="trailing" id="KYp-JQ-JUe"/>
+                            <constraint firstItem="97C-9g-RUl" firstAttribute="top" secondItem="lN7-E1-eCE" secondAttribute="bottom" constant="8" id="OBs-zs-Ozm"/>
                             <constraint firstItem="uSn-el-eEK" firstAttribute="leading" secondItem="XCy-Hg-gMR" secondAttribute="leading" id="OfB-dP-X5f"/>
+                            <constraint firstItem="AzA-H3-TQW" firstAttribute="top" secondItem="lN7-E1-eCE" secondAttribute="bottom" constant="14" id="YMp-86-JIp"/>
                             <constraint firstItem="Gj9-BY-AVL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zkO-N8-B83" secondAttribute="leading" id="dl5-yo-FFr"/>
                             <constraint firstItem="zkO-N8-B83" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="qcy-tC-puV" secondAttribute="trailing" id="e9H-4V-SqY"/>
                             <constraint firstItem="Xik-Ly-8mS" firstAttribute="leading" secondItem="KHQ-Ed-Ybx" secondAttribute="leading" constant="189" id="fMK-Dc-DmA"/>
                             <constraint firstItem="qcy-tC-puV" firstAttribute="trailing" secondItem="lN7-E1-eCE" secondAttribute="trailing" id="g4S-I1-f2W"/>
                             <constraint firstAttribute="bottom" secondItem="y7r-Qp-r2O" secondAttribute="bottom" id="gLY-aA-VYL"/>
                             <constraint firstItem="y7r-Qp-r2O" firstAttribute="centerX" secondItem="Xik-Ly-8mS" secondAttribute="centerX" id="gWQ-e7-Rbl"/>
+                            <constraint firstItem="97C-9g-RUl" firstAttribute="trailing" secondItem="lN7-E1-eCE" secondAttribute="trailing" id="iA0-ik-FTx"/>
                             <constraint firstItem="qcy-tC-puV" firstAttribute="leading" secondItem="lN7-E1-eCE" secondAttribute="leading" id="iZC-o7-6fr"/>
                             <constraint firstItem="zkO-N8-B83" firstAttribute="leading" secondItem="qcy-tC-puV" secondAttribute="leading" id="j7Y-Ae-RbU"/>
                             <constraint firstItem="Gj9-BY-AVL" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zkO-N8-B83" secondAttribute="trailing" id="jwy-hT-dro"/>
@@ -679,6 +701,7 @@
                             <constraint firstItem="zkO-N8-B83" firstAttribute="top" secondItem="Xik-Ly-8mS" secondAttribute="top" id="qmU-WJ-Tkr"/>
                             <constraint firstItem="XCy-Hg-gMR" firstAttribute="top" secondItem="uSn-el-eEK" secondAttribute="bottom" constant="8" symbolic="YES" id="v5J-La-xKV"/>
                             <constraint firstItem="zkO-N8-B83" firstAttribute="top" secondItem="Gj9-BY-AVL" secondAttribute="bottom" constant="8" symbolic="YES" id="xR2-bf-bLF"/>
+                            <constraint firstItem="AzA-H3-TQW" firstAttribute="leading" secondItem="KHQ-Ed-Ybx" secondAttribute="leading" constant="302" id="zFb-9W-WlU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CLl-Tq-Tb3"/>
@@ -686,6 +709,7 @@
                         <outlet property="configureBtn" destination="lN7-E1-eCE" id="dXp-cZ-iCs"/>
                         <outlet property="fldPassword" destination="Gj9-BY-AVL" id="kKL-Sv-9cU"/>
                         <outlet property="fldUsername" destination="XCy-Hg-gMR" id="gKM-C7-PSe"/>
+                        <outlet property="githubBtn" destination="97C-9g-RUl" id="Iyr-oU-pKG"/>
                         <outlet property="loginBtn" destination="zkO-N8-B83" id="5Px-X8-BbV"/>
                         <outlet property="registerBtn" destination="qcy-tC-puV" id="bj8-du-VdN"/>
                         <outlet property="spinner" destination="Xik-Ly-8mS" id="pa4-DA-X8f"/>
@@ -694,7 +718,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d7C-ea-S1e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2387" y="8"/>
+            <point key="canvasLocation" x="-2387.4418604651164" y="7.7253218884120178"/>
         </scene>
         <!--Feed-->
         <scene sceneID="ffR-cW-bz1">
@@ -1988,7 +2012,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="9hY-Wr-Hc5"/>
-        <segue reference="jAl-Ce-ToR"/>
+        <segue reference="zM1-ak-dHI"/>
         <segue reference="dY1-dW-jOU"/>
         <segue reference="WAL-lA-jZq"/>
         <segue reference="xvZ-Jm-2dq"/>
@@ -2003,6 +2027,7 @@
         <image name="Feed-Selected" width="33.333332061767578" height="25"/>
         <image name="Feed-Unselected" width="33.333332061767578" height="25"/>
         <image name="Feed_Latest" width="11.666666984558105" height="11.666666984558105"/>
+        <image name="GitHubLogo" width="76.666664123535156" height="75"/>
         <image name="Lang_Go" width="42.666667938232422" height="42.666667938232422"/>
         <image name="Lang_Java" width="170.66667175292969" height="170.66667175292969"/>
         <image name="Lang_Node" width="42.666667938232422" height="42.666667938232422"/>
@@ -2034,25 +2059,25 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
-            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

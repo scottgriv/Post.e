@@ -13,7 +13,7 @@
 
 @implementation Login
 
-@synthesize fldUsername, fldPassword, loginBtn, registerBtn, configureBtn, spinner, language;
+@synthesize fldUsername, fldPassword, loginBtn, registerBtn, configureBtn, githubBtn, spinner, language;
 
 - (IBAction)Unwind_to_Login:(UIStoryboardSegue *)unwindSegue
 {
@@ -36,7 +36,8 @@
     self.loginBtn.layer.cornerRadius = 10;
     self.registerBtn.layer.cornerRadius = 10;
     self.configureBtn.layer.cornerRadius = 10;
-    
+    self.githubBtn.layer.cornerRadius = 10;
+
     if (@available(iOS 13.0, *)) {
         self.fldUsername.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
         self.fldPassword.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
@@ -135,6 +136,16 @@
         
         [self beginLogin];
         
+    }
+}
+
+- (IBAction)githubClicked:(id)sender {
+    NSURL *url = [NSURL URLWithString:@"https://github.com/scottgriv/Post.e"]; //GitHub Repository Link
+    if ([[UIApplication sharedApplication] canOpenURL:url]) {
+        [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
+    } else {
+        // Handle the error
+        NSLog(@"Cannot open URL");
     }
 }
 

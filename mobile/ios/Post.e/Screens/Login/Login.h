@@ -15,15 +15,16 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Login : UIViewController <WCSessionDelegate>
 
 //Objects
-@property (weak, nonatomic) IBOutlet UITextField *fldUsername;            //Username Field
-@property (weak, nonatomic) IBOutlet UITextField *fldPassword;            //Password Field
-@property (weak, nonatomic) IBOutlet UIButton * loginBtn;                 //Login Button
-@property (strong, nonatomic) IBOutlet UIButton *registerBtn;             //Register Button
-@property (strong, nonatomic) IBOutlet UIButton *configureBtn;            //Configure Button
-@property (strong, nonatomic) IBOutlet UIActivityIndicatorView * spinner; //Activity Indicator
+@property (weak, nonatomic) IBOutlet UITextField *fldUsername;            // Username Field
+@property (weak, nonatomic) IBOutlet UITextField *fldPassword;            // Password Field
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;                  // Login Button
+@property (strong, nonatomic) IBOutlet UIButton *registerBtn;             // Register Button
+@property (strong, nonatomic) IBOutlet UIButton *configureBtn;            // Configure Button
+@property (weak, nonatomic) IBOutlet UIButton *githubBtn;                 // GitHub Button
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView * spinner; // Activity Indicator
 
 //Variables
-@property (nonatomic, strong) NSString * language;                        //Language
+@property (nonatomic, strong) NSString * language;                        // Language
 
 @end
 
