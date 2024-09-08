@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vx8-bV-1O9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23089" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vx8-bV-1O9">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23077"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -650,7 +650,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97C-9g-RUl">
-                                <rect key="frame" x="82" y="724" width="266" height="35"/>
+                                <rect key="frame" x="82" y="808" width="266" height="35"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="15"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -663,7 +663,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GitHubLogo" translatesAutoresizingMaskIntoConstraints="NO" id="AzA-H3-TQW">
-                                <rect key="frame" x="302" y="730" width="20" height="20"/>
+                                <rect key="frame" x="302" y="814" width="20" height="20"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KHQ-Ed-Ybx"/>
@@ -675,16 +675,16 @@
                             <constraint firstItem="XCy-Hg-gMR" firstAttribute="leading" secondItem="Gj9-BY-AVL" secondAttribute="leading" id="6PG-bY-CrV"/>
                             <constraint firstAttribute="trailing" secondItem="y7r-Qp-r2O" secondAttribute="trailing" id="9VT-L4-aho"/>
                             <constraint firstItem="uSn-el-eEK" firstAttribute="leading" secondItem="KHQ-Ed-Ybx" secondAttribute="leading" constant="82" id="A5k-MD-dVG"/>
-                            <constraint firstItem="KHQ-Ed-Ybx" firstAttribute="bottom" secondItem="AzA-H3-TQW" secondAttribute="bottom" constant="182" id="D1h-CB-F2z"/>
+                            <constraint firstItem="KHQ-Ed-Ybx" firstAttribute="bottom" secondItem="AzA-H3-TQW" secondAttribute="bottom" constant="98" id="D1h-CB-F2z"/>
                             <constraint firstItem="zkO-N8-B83" firstAttribute="centerX" secondItem="Xik-Ly-8mS" secondAttribute="centerX" id="GZf-2v-MIx"/>
                             <constraint firstItem="uSn-el-eEK" firstAttribute="trailing" secondItem="XCy-Hg-gMR" secondAttribute="trailing" id="Hxg-N0-G1b"/>
                             <constraint firstItem="uSn-el-eEK" firstAttribute="top" secondItem="KHQ-Ed-Ybx" secondAttribute="top" constant="145" id="IYR-MH-Xtk"/>
                             <constraint firstItem="lN7-E1-eCE" firstAttribute="top" secondItem="qcy-tC-puV" secondAttribute="bottom" constant="8" symbolic="YES" id="Ion-1a-uqM"/>
                             <constraint firstItem="97C-9g-RUl" firstAttribute="leading" secondItem="lN7-E1-eCE" secondAttribute="leading" id="JuJ-TX-1mv"/>
                             <constraint firstItem="XCy-Hg-gMR" firstAttribute="trailing" secondItem="Gj9-BY-AVL" secondAttribute="trailing" id="KYp-JQ-JUe"/>
-                            <constraint firstItem="97C-9g-RUl" firstAttribute="top" secondItem="lN7-E1-eCE" secondAttribute="bottom" constant="8" id="OBs-zs-Ozm"/>
+                            <constraint firstItem="97C-9g-RUl" firstAttribute="top" secondItem="lN7-E1-eCE" secondAttribute="bottom" constant="92" id="OBs-zs-Ozm"/>
                             <constraint firstItem="uSn-el-eEK" firstAttribute="leading" secondItem="XCy-Hg-gMR" secondAttribute="leading" id="OfB-dP-X5f"/>
-                            <constraint firstItem="AzA-H3-TQW" firstAttribute="top" secondItem="lN7-E1-eCE" secondAttribute="bottom" constant="14" id="YMp-86-JIp"/>
+                            <constraint firstItem="AzA-H3-TQW" firstAttribute="top" secondItem="lN7-E1-eCE" secondAttribute="bottom" constant="98" id="YMp-86-JIp"/>
                             <constraint firstItem="Gj9-BY-AVL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zkO-N8-B83" secondAttribute="leading" id="dl5-yo-FFr"/>
                             <constraint firstItem="zkO-N8-B83" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="qcy-tC-puV" secondAttribute="trailing" id="e9H-4V-SqY"/>
                             <constraint firstItem="Xik-Ly-8mS" firstAttribute="leading" secondItem="KHQ-Ed-Ybx" secondAttribute="leading" constant="189" id="fMK-Dc-DmA"/>
@@ -1368,7 +1368,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="2AH-YY-HGg">
-                                <rect key="frame" x="-1" y="13" width="427" height="927"/>
+                                <rect key="frame" x="-1" y="0.0" width="427" height="940"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1382,7 +1382,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u4M-ss-onw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3136" y="8"/>
+            <point key="canvasLocation" x="-3136.7441860465115" y="7.7253218884120178"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IqB-oz-RZK">
@@ -2059,25 +2059,25 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

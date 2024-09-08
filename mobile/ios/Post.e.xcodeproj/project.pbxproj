@@ -487,8 +487,8 @@
 				F683A5B2270A723000FA1D94 /* Post.e */,
 				F67C4E2D28790919005A08F3 /* Post.e_Watch */,
 				F67C4E3B2879091C005A08F3 /* Post.e_Watch WatchKit Extension */,
-				F68E2F0F28B0663F00B3E982 /* Playgrounds */,
 				F67D193F28AB38FF0040727B /* Post.eTests */,
+				F68E2F0F28B0663F00B3E982 /* Playgrounds */,
 				F683A593270A6FC500FA1D94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -621,6 +621,7 @@
 				F683A5C8270A746A00FA1D94 /* Scene Delegate */,
 				F683A5C4270A73BF00FA1D94 /* TabBarController */,
 				F683A5C3270A73B100FA1D94 /* NavigationController */,
+				F6CBFC142C8E448F00B601B3 /* Config */,
 				F683A5CC270A752500FA1D94 /* Singletons */,
 				F683A5EF270D3F1A00FA1D94 /* Open Source Libraries */,
 			);
@@ -663,8 +664,6 @@
 		F683A5CC270A752500FA1D94 /* Singletons */ = {
 			isa = PBXGroup;
 			children = (
-				F67D192F28A9D12F0040727B /* App Info */,
-				F660E90927225D93005F856A /* Constants */,
 				F6E35929279663F900669243 /* Managers */,
 				F6F7E225274604C500AAB77D /* Cells */,
 			);
@@ -802,6 +801,15 @@
 				F68E2F1028B0666600B3E982 /* Postground.playground */,
 			);
 			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		F6CBFC142C8E448F00B601B3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F67D192F28A9D12F0040727B /* App Info */,
+				F660E90927225D93005F856A /* Constants */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		F6DDAA2D2787E00C0092A50C /* Follow Manager */ = {

@@ -139,7 +139,15 @@ class PassThrough: UIViewController, WCSessionDelegate {
             
         } else {
             
-            self.performSegue(withIdentifier: "PassThrough_to_Login", sender: self)
+            var delaySeconds = 0.0
+            
+            if (instanceOfAppInfo.delayLaunchScreen) {
+                delaySeconds = 2.0
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + delaySeconds) { // 2 seconds delay to show the Launch Screen
+                self.performSegue(withIdentifier: "PassThrough_to_Login", sender: self)
+            }
             
         }
         
