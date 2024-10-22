@@ -17,7 +17,7 @@
 
 ---------------
 
-<h1 align="center"> <img src="https://via.placeholder.com/20/FFFF00/000000?text=+" /> <img src="https://via.placeholder.com/20/FF9900/000000?text=+" /> <img src="https://via.placeholder.com/20/FF0000/000000?text=+" /> Post.e <img src="https://via.placeholder.com/20/FF0000/000000?text=+" /> <img src="https://via.placeholder.com/20/FF9900/000000?text=+" /> <img src="https://via.placeholder.com/20/FFFF00/000000?text=+" /></h1>
+<h1 align="center">🟨 🟧 🟥 Post.e 🟥 🟧 🟨 🟧</h1>
 
 Learn how to build and structure your own social media applicaiton using **Post.e!**
 - Create a user profile, follow other users, and post messages similar to Twitter/X. 
