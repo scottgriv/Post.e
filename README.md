@@ -17,7 +17,7 @@
 
 ---------------
 
-<h1 align="center">🟨 🟧 🟥 Post.e 🟥 🟧 🟨 🟧</h1>
+<h1 align="center">🟨 🟧 🟥 Post.e 🟥 🟧 🟨</h1>
 
 Learn how to build and structure your own social media applicaiton using **Post.e!**
 - Create a user profile, follow other users, and post messages similar to Twitter/X. 
