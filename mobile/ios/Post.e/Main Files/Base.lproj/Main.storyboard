@@ -654,6 +654,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="KohinoorGujarati-Bold" family="Kohinoor Gujarati" pointSize="15"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="-25" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Visit Post.e on GitHub">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -663,13 +664,13 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GitHubLogo" translatesAutoresizingMaskIntoConstraints="NO" id="AzA-H3-TQW">
-                                <rect key="frame" x="302" y="814" width="20" height="20"/>
+                                <rect key="frame" x="287" y="814" width="20" height="20"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KHQ-Ed-Ybx"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="KHQ-Ed-Ybx" firstAttribute="trailing" secondItem="AzA-H3-TQW" secondAttribute="trailing" constant="108" id="2LU-gk-6xv"/>
+                            <constraint firstItem="KHQ-Ed-Ybx" firstAttribute="trailing" secondItem="AzA-H3-TQW" secondAttribute="trailing" constant="123" id="2LU-gk-6xv"/>
                             <constraint firstItem="Gj9-BY-AVL" firstAttribute="top" secondItem="XCy-Hg-gMR" secondAttribute="bottom" constant="8" symbolic="YES" id="4JX-gl-lfS"/>
                             <constraint firstItem="zkO-N8-B83" firstAttribute="bottom" secondItem="Xik-Ly-8mS" secondAttribute="bottom" id="4un-Lc-XEN"/>
                             <constraint firstItem="XCy-Hg-gMR" firstAttribute="leading" secondItem="Gj9-BY-AVL" secondAttribute="leading" id="6PG-bY-CrV"/>
@@ -701,7 +702,7 @@
                             <constraint firstItem="zkO-N8-B83" firstAttribute="top" secondItem="Xik-Ly-8mS" secondAttribute="top" id="qmU-WJ-Tkr"/>
                             <constraint firstItem="XCy-Hg-gMR" firstAttribute="top" secondItem="uSn-el-eEK" secondAttribute="bottom" constant="8" symbolic="YES" id="v5J-La-xKV"/>
                             <constraint firstItem="zkO-N8-B83" firstAttribute="top" secondItem="Gj9-BY-AVL" secondAttribute="bottom" constant="8" symbolic="YES" id="xR2-bf-bLF"/>
-                            <constraint firstItem="AzA-H3-TQW" firstAttribute="leading" secondItem="KHQ-Ed-Ybx" secondAttribute="leading" constant="302" id="zFb-9W-WlU"/>
+                            <constraint firstItem="AzA-H3-TQW" firstAttribute="leading" secondItem="KHQ-Ed-Ybx" secondAttribute="leading" constant="287" id="zFb-9W-WlU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CLl-Tq-Tb3"/>
@@ -2012,7 +2013,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="9hY-Wr-Hc5"/>
-        <segue reference="jAl-Ce-ToR"/>
+        <segue reference="zM1-ak-dHI"/>
         <segue reference="dY1-dW-jOU"/>
         <segue reference="WAL-lA-jZq"/>
         <segue reference="xvZ-Jm-2dq"/>
