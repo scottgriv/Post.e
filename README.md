@@ -19,14 +19,14 @@
 
 <h1 align="center">🟨 🟧 🟥 Post.e 🟥 🟧 🟨</h1>
 
-Learn how to build and structure your own social media applicaiton using **Post.e!**
+<p align="center">Learn how to build and structure your own social media applicaiton using <bPost.e!</b></p>
 
 <img src="./docs/images/phone_feed.gif" width="19%" height="19%"/><img src="./docs/images/phone_post.gif" width="19.1%" height="19%"/><img src="./docs/images/phone_splash.png" width="18.3%" height="18.3%"/><img src="./docs/images/phone_profile.gif" width="19.05%" height="19%"/><img src="./docs/images/phone_interaction.gif" width="19.05%" height="19%"/>
 
 
+- A mobile application written in Swift & Objective-C for the front-end and multiple back-end languages such as PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl.
 - Create a user profile, follow other users, and post messages similar to Twitter/X. 
 - Share content with other users by attaching photos, videos, documents, and files to your Posts. 
-- A mobile application written in Swift & Objective-C for the front-end and multiple back-end languages such as PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl.
 - Includes a back-end MySQL database, JSON interchange, and multiple out of the box APIs.
 - Designed to teach people how to build their own social media app in mind.
 
