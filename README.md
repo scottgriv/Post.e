@@ -20,23 +20,21 @@
 <h1 align="center">🟨 🟧 🟥 Post.e 🟥 🟧 🟨</h1>
 
 Learn how to build and structure your own social media applicaiton using **Post.e!**
-- Create a user profile, follow other users, and post messages similar to Twitter/X. 
-- Share content with other users by attaching photos, videos, documents, and files to your Posts. 
-- Written in Swift & Objective-C for the front-end and multiple back-end languages such as PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl. 
-- Includes a back-end MySQL database, JSON interchange, and multiple out of the box APIs. 
 
 <img src="./docs/images/phone_feed.gif" width="19%" height="19%"/><img src="./docs/images/phone_post.gif" width="19.1%" height="19%"/><img src="./docs/images/phone_splash.png" width="18.3%" height="18.3%"/><img src="./docs/images/phone_profile.gif" width="19.05%" height="19%"/><img src="./docs/images/phone_interaction.gif" width="19.05%" height="19%"/>
+
+
+- Create a user profile, follow other users, and post messages similar to Twitter/X. 
+- Share content with other users by attaching photos, videos, documents, and files to your Posts. 
+- A mobile application written in Swift & Objective-C for the front-end and multiple back-end languages such as PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl.
+- Includes a back-end MySQL database, JSON interchange, and multiple out of the box APIs.
+- Designed to teach people how to build their own social media app in mind.
 
 ---------------
 
 ## Table of Contents
 
 - [Features](#features)
-- [Background Story](#background-story)
-- [Definitions](#definitions)
-- [Getting Started](#getting-started)
-- [What's Inside?](#whats-inside)
-- [Application Functionality](#application-functionality)
     - [Login & Register Screens](#login--register-screens)
     - [Configure Programming Language Screens](#configure-programming-language-screens)
     - [Feed Screen](#feed-screen)
@@ -52,6 +50,10 @@ Learn how to build and structure your own social media applicaiton using **Post.
     - [Interchange](#interchange)
     - [Database](#database)
     - [Programming Languages](#programming-languages)
+- [Background Story](#background-story)
+- [Definitions](#definitions)
+- [Getting Started](#getting-started)
+- [What's Inside?](#whats-inside)
 - [Limitations](#limitations)
 - [Closing](#closing)
 - [What's Next?](#whats-next)
@@ -62,138 +64,6 @@ Learn how to build and structure your own social media applicaiton using **Post.
 - [Credits](#credits)
 
 ## Features
-
-- A mobile application written in Swift & Objective-C for the front-end and multiple back-end languages such as PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl.
-- Includes a back-end MySQL database, JSON interchange, and multiple out of the box APIs.
-- Designed to teach people how to build their own social media app in mind.
-- Create a user profile, follow other users, and post messages similar to Twitter/X.
-- Share content with other users by attaching photos, videos, documents, and files to your Posts.
-
-## Background Story
-
-I had two goals when I originally started this project:
-1. Demonstrate how to make a "*Twitter/X-esque*" social media application.
-    - Many people underestimate the amount of time and work involved in making a social media application.
-    - There's a lot of confusion around what the tech stack consists of (client-side code, back-end code, a database, and a web-server of some kind).
-    - I wanted to shine a light on the above processes and the technology involved.
-2. Create the application in as many languages as possible and use the project as a learning tool for myself.
-    - I wrote the application with a mix of both `Objective-C` and `Swift` to demonstrate how a `Bridging Header` file allows the two languages to share classes/files between each other. 
-    - I'm constantly learning new programming languages and frameworks. I wanted to build a "one stop shop" mobile application as a sandbox for all of these languages.
-    - I started building the application back-end with ``PHP`` because it's easy for others to understand. In the future, I'm going to try to utilize languages like ``Go`` and ``Node.js``. The multithreading capabilities of these languages to significantly speed up server request & response processing makes them an obvious choice to work on next.
-    - I've realized now, by open-sourcing it, there's an opportunity for others to learn and contribute to it as well.
-
-## Definitions
-
-Here are some definitions to help you understand the terminology used in this document:
-
-**Post**: is any message posted to **Post.e** which contains text and/or attachments that may contain photos, videos, or a wide variety of file types. View the `extension` table in the database to view the supported file types. Tap the Post button to post the message to your profile.
-    - **Posts** are the de facto form of communication in **Post.e** (similar to a [Tweet](https://help.twitter.com/en/resources/new-user-faq)).
-    - **Posts** were inspired by the popular office supply product [Post-It Notes](https://en.wikipedia.org/wiki/Post-it_Note) due to their ability to easily communicate messages and attach them to surfaces. Virtual **Posts** in **Post.e** offer a similar functionality. 
-
-## Getting Started
-
-- Download the application from here, GitHub.
-- Place the `server` file on your web server.
-- Ensure you have the proper language frameworks and versions installed to integrate **Post.e** with. 
-    - See [Programming Languages](#programming-languages) above for the current list of version numbers.
-- Import the provided `MySQL` database structure into your database using either the `db/mysql/post-e.sql` file or the `db/mysql/post-e_demo.sql` file.
-    - The `post-e.sql` file is a blank/empty database/sandbox.
-    - The `post-e_demo.sql` file contains sample data (recommended for demoing or learning purposes).
-- Edit the `resources/config.ini` file with your database credentials.
-    - This will be used to connect to the database in all language variations. 
-- Ensure the proper ports are open for your `localhost` web server and database.
-- Run the **Post.e** app in `Xcode` located in the `mobile/ios` folder.
-    - Wait for the required packages to download in Swift Package Manager (SPM).
-    - **Post.e** was tested with the following devices/simulators:
-        - iPhone 14 Pro Max
-        - iPhone 14 Plus
-        - Apple Watch Series 8 (41mm)
-        - Apple Watch Series 8 (45mm)
-        - More Devices to be added in the future (layouts may vary due to constraint issues depending on your unsupported Device)
-- Login with the following:
-    - If you're using the Demo database, login with the following credentials: 
-        - **User:** Demo123
-        - **Password:** appdev123
-    - If you're using the empty database, you will have to build up the app database by registering new users.
-- Click Login! Enjoy!
-
-> [!IMPORTANT]
-> In the `Constants.m` file there is a `#TARGET_IPHONE_SIMULATOR` env variable. If you're using the Simulator, **Post.e.** will point towards your `localhost` / `127.0.0.1` server. 
-> If you're using a Device, you'll need to explicitly declare your laptop/server's IP on your network in the `#else` block. Make sure you swap `your_server_ip_address` with your server's IP address and keep the rest of the path the same.
-> If you're using a Device and the `post.e_demo` database, you will also have to update the paths located in the database tables to point correctly to the demo photos and attachments by calling a stored procedure called `p_update_urls('fromIP', 'toIP')`, see the example code block below.
-
-```
-CALL p_update_urls('localhost', 'your_server_ip_address')
-// or
-CALL p_update_urls('127.0.0.1', 'your_server_ip_address')
-```
-
-> [!NOTE]
-> All of the demo accounts in the database use thesame password mentioned above. 
-> Passwords are hashed using `SHA512` and `Salted`.
-> The demo accounts consist of quotes from famous individuals that have inspired me through their works and words.
-
-> [!TIP]
-> Change your scheme to `Post.e-Test` to view Profile ID and Post ID values in the tableview for debugging purposes.
-
-## What's Inside?
-
-Below is a list of the main files and folders in this repository and their specific purposes:
-  ```bash
-  Post.e # Root folder
-    ├─ api # This directory contains the Postman API import file which sends requests to the apis.[language file] file.
-    │  └─ PHP - Post.e API.postman_collection.json # Postman API collection
-    ├─ db # Database folder
-    │  └─ mysql # Contains the install files for the Post.e database, a demo database, and a EER Diagram of the database.
-    │     ├─ post_e.sql # Post.e database
-    │     ├─ post_e_demo.sql # Post.e demo database
-    │     └─ post_e-eer.mwb # Post.e EER Diagram
-    ├─ docs # Documentation folder
-    │  └─ images # Images used for the GitHub README relative path.
-    ├─ mobile # Mobile folder
-    │  ├─ ios # The directory where the iOS and watchOS files are stored.
-    │  │  ├─ Playgrounds # Playgrounds folder
-    │  │  ├─ Post.e # Post.e folder
-    │  │  ├─ Post.e_Watch # Post.e Watch folder
-    │  │  ├─ Post.e_Watch WatchKit Extension # Post.e Watch Extension folder
-    │  │  ├─ Post.e-Test # Post.e Test folder
-    │  │  ├─ Post.e.xcodeproj # Post.e Xcode project file
-    │  │  ├─ Post.eTests # Post.e Tests folder
-    │  │  └─ Sample Files # Sample files folder
-    │  │     ├─ jpg_Sample.jpg # Sample JPG file
-    │  │     ├─ pdf_Sample.pdf # Sample PDF file
-    │  │     ├─ png_Sample.png # Sample PNG file
-    │  │     └─ txt_Sample.txt # Sample TXT file
-    ├─ server # Server folder
-    │  ├─ languages # The directory where the server side languages are stored.
-    │  │  ├─ go # Go folder
-    │  │  ├─ java # Java folder
-    │  │  ├─ js # JavaScript folder
-    │  │  ├─ php # PHP folder
-    │  │  ├─ pl # Perl folder
-    │  │  ├─ py # Python folder
-    │  │  ├─ rb # Ruby folder
-    │  │  └─ rs # Rust folder
-    │  ├─ resources # The directory where the log files and config.ini file used for the database connection are stored.
-    │  │  ├─ logs # Logs folder
-    │  │  │  └─ current_date.log # Current date log file
-    │  │  └─ config # Config folder
-    │  │     └─ config.ini # Config file
-    │  └─ uploads # The directory profile images and post images/files download to.
-    │     └─ prof_id # Profile ID folder
-    │        ├─ prof_id.jpg # Profile ID JPG file
-    │        └─ posts # Posts folder
-    │           └─ post_id # Post ID folder
-    │              └─ file name # File name
-    ├─ .gitignore # Git ignore file
-    ├─ .gitattributes # Git attributes file
-    ├─ .github # GitHub folder                                                             
-    ├─ PRG.md # PRG Connection File
-    ├─ LICENSE # License file   
-    └─ README # This file   
-```
-
-## Application Functionality
 
 Below is a list of the main features and functionality of **Post.e**:
 
@@ -375,6 +245,130 @@ For responses, **Post.e** uses JSON encoding via `application/json; charset=utf-
 
 ---------------
 
+## Background Story
+
+I had two goals when I originally started this project:
+1. Demonstrate how to make a "*Twitter/X-esque*" social media application.
+    - Many people underestimate the amount of time and work involved in making a social media application.
+    - There's a lot of confusion around what the tech stack consists of (client-side code, back-end code, a database, and a web-server of some kind).
+    - I wanted to shine a light on the above processes and the technology involved.
+2. Create the application in as many languages as possible and use the project as a learning tool for myself.
+    - I wrote the application with a mix of both `Objective-C` and `Swift` to demonstrate how a `Bridging Header` file allows the two languages to share classes/files between each other. 
+    - I'm constantly learning new programming languages and frameworks. I wanted to build a "one stop shop" mobile application as a sandbox for all of these languages.
+    - I started building the application back-end with ``PHP`` because it's easy for others to understand. In the future, I'm going to try to utilize languages like ``Go`` and ``Node.js``. The multithreading capabilities of these languages to significantly speed up server request & response processing makes them an obvious choice to work on next.
+    - I've realized now, by open-sourcing it, there's an opportunity for others to learn and contribute to it as well.
+
+## Definitions
+
+Here are some definitions to help you understand the terminology used in this document:
+
+**Post**: is any message posted to **Post.e** which contains text and/or attachments that may contain photos, videos, or a wide variety of file types. View the `extension` table in the database to view the supported file types. Tap the Post button to post the message to your profile.
+    - **Posts** are the de facto form of communication in **Post.e** (similar to a [Tweet](https://help.twitter.com/en/resources/new-user-faq)).
+    - **Posts** were inspired by the popular office supply product [Post-It Notes](https://en.wikipedia.org/wiki/Post-it_Note) due to their ability to easily communicate messages and attach them to surfaces. Virtual **Posts** in **Post.e** offer a similar functionality. 
+
+## Getting Started
+
+- Download the application from here, GitHub.
+- Place the `server` file on your web server.
+- Ensure you have the proper language frameworks and versions installed to integrate **Post.e** with. 
+    - See [Programming Languages](#programming-languages) above for the current list of version numbers.
+- Import the provided `MySQL` database structure into your database using either the `db/mysql/post-e.sql` file or the `db/mysql/post-e_demo.sql` file.
+    - The `post-e.sql` file is a blank/empty database/sandbox.
+    - The `post-e_demo.sql` file contains sample data (recommended for demoing or learning purposes).
+- Edit the `resources/config.ini` file with your database credentials.
+    - This will be used to connect to the database in all language variations. 
+- Ensure the proper ports are open for your `localhost` web server and database.
+- Run the **Post.e** app in `Xcode` located in the `mobile/ios` folder.
+    - Wait for the required packages to download in Swift Package Manager (SPM).
+    - **Post.e** was tested with the following devices/simulators:
+        - iPhone 14 Pro Max
+        - iPhone 14 Plus
+        - Apple Watch Series 8 (41mm)
+        - Apple Watch Series 8 (45mm)
+        - More Devices to be added in the future (layouts may vary due to constraint issues depending on your unsupported Device)
+- Login with the following:
+    - If you're using the Demo database, login with the following credentials: 
+        - **User:** Demo123
+        - **Password:** appdev123
+    - If you're using the empty database, you will have to build up the app database by registering new users.
+- Click Login! Enjoy!
+
+> [!IMPORTANT]
+> In the `Constants.m` file there is a `#TARGET_IPHONE_SIMULATOR` env variable. If you're using the Simulator, **Post.e.** will point towards your `localhost` / `127.0.0.1` server. 
+> If you're using a Device, you'll need to explicitly declare your laptop/server's IP on your network in the `#else` block. Make sure you swap `your_server_ip_address` with your server's IP address and keep the rest of the path the same.
+> If you're using a Device and the `post.e_demo` database, you will also have to update the paths located in the database tables to point correctly to the demo photos and attachments by calling a stored procedure called `p_update_urls('fromIP', 'toIP')`, see the example code block below.
+
+```
+CALL p_update_urls('localhost', 'your_server_ip_address')
+// or
+CALL p_update_urls('127.0.0.1', 'your_server_ip_address')
+```
+
+> [!NOTE]
+> All of the demo accounts in the database use thesame password mentioned above. 
+> Passwords are hashed using `SHA512` and `Salted`.
+> The demo accounts consist of quotes from famous individuals that have inspired me through their works and words.
+
+> [!TIP]
+> Change your scheme to `Post.e-Test` to view Profile ID and Post ID values in the tableview for debugging purposes.
+
+## What's Inside?
+
+Below is a list of the main files and folders in this repository and their specific purposes:
+  ```bash
+  Post.e # Root folder
+    ├─ api # This directory contains the Postman API import file which sends requests to the apis.[language file] file.
+    │  └─ PHP - Post.e API.postman_collection.json # Postman API collection
+    ├─ db # Database folder
+    │  └─ mysql # Contains the install files for the Post.e database, a demo database, and a EER Diagram of the database.
+    │     ├─ post_e.sql # Post.e database
+    │     ├─ post_e_demo.sql # Post.e demo database
+    │     └─ post_e-eer.mwb # Post.e EER Diagram
+    ├─ docs # Documentation folder
+    │  └─ images # Images used for the GitHub README relative path.
+    ├─ mobile # Mobile folder
+    │  ├─ ios # The directory where the iOS and watchOS files are stored.
+    │  │  ├─ Playgrounds # Playgrounds folder
+    │  │  ├─ Post.e # Post.e folder
+    │  │  ├─ Post.e_Watch # Post.e Watch folder
+    │  │  ├─ Post.e_Watch WatchKit Extension # Post.e Watch Extension folder
+    │  │  ├─ Post.e-Test # Post.e Test folder
+    │  │  ├─ Post.e.xcodeproj # Post.e Xcode project file
+    │  │  ├─ Post.eTests # Post.e Tests folder
+    │  │  └─ Sample Files # Sample files folder
+    │  │     ├─ jpg_Sample.jpg # Sample JPG file
+    │  │     ├─ pdf_Sample.pdf # Sample PDF file
+    │  │     ├─ png_Sample.png # Sample PNG file
+    │  │     └─ txt_Sample.txt # Sample TXT file
+    ├─ server # Server folder
+    │  ├─ languages # The directory where the server side languages are stored.
+    │  │  ├─ go # Go folder
+    │  │  ├─ java # Java folder
+    │  │  ├─ js # JavaScript folder
+    │  │  ├─ php # PHP folder
+    │  │  ├─ pl # Perl folder
+    │  │  ├─ py # Python folder
+    │  │  ├─ rb # Ruby folder
+    │  │  └─ rs # Rust folder
+    │  ├─ resources # The directory where the log files and config.ini file used for the database connection are stored.
+    │  │  ├─ logs # Logs folder
+    │  │  │  └─ current_date.log # Current date log file
+    │  │  └─ config # Config folder
+    │  │     └─ config.ini # Config file
+    │  └─ uploads # The directory profile images and post images/files download to.
+    │     └─ prof_id # Profile ID folder
+    │        ├─ prof_id.jpg # Profile ID JPG file
+    │        └─ posts # Posts folder
+    │           └─ post_id # Post ID folder
+    │              └─ file name # File name
+    ├─ .gitignore # Git ignore file
+    ├─ .gitattributes # Git attributes file
+    ├─ .github # GitHub folder                                                             
+    ├─ PRG.md # PRG Connection File
+    ├─ LICENSE # License file   
+    └─ README # This file   
+```
+
 ## Programming Languages
 
 Below is a running list of languages currently supported by **Post.e**:
@@ -392,8 +386,6 @@ Below is a running list of languages currently supported by **Post.e**:
 |  ![Perl](https://img.shields.io/badge/Perl-open-critical?style=for-the-badge&logo=perl)                             | 5.30.3      |
 |  ![Java](https://img.shields.io/badge/Java-open-critical?style=for-the-badge)                                       | 17.0.5      |
 |  ![MariaDB](https://img.shields.io/badge/MariaDB-complete-success?style=for-the-badge&logo=mysql)                     | 10.4.21     |
-
----------------
 
 ## Limitations
 
