@@ -15,7 +15,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 **Repository Tier:** Gold <br>
 **Technology:** iOS, watchOS, UIKit, Objective-C, Swift, PHP, MySQL <br>
 **Category:** Mobile Application <br>
-**Order:** 3 <br>
+**Order:** 2 <br>
 
 ## Parameters
 
