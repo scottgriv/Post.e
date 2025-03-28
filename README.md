@@ -25,12 +25,12 @@
 
 <h2 align="center">What is Post.e?</h2>
 
-- **Post.e** is an open source iOS mobile application built using Swift and Objective-C for the client side.
-- Users can create profiles, follow others, and post messages similar to Twitter/X.
-- Supports media-rich posts with photos, videos, documents, and file attachments.
-- Supports multiple server-side languages, including PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl.
-- Powered by a MySQL-compatible MariaDB database, with JSON-based data interchange and built-in API support.
-- Designed to teach users how to build their own social media app from the ground up.
+- [x] **Post.e** is an open source iOS mobile application built using Swift and Objective-C for the client side.
+- [x] Users can create profiles, follow others, and post messages similar to Twitter/X.
+- [x] Supports media-rich posts with photos, videos, documents, and file attachments.
+- [x] Supports multiple server-side languages, including PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl.
+- [x] Powered by a MySQL-compatible MariaDB database, with JSON-based data interchange and built-in API support.
+- [x] Designed to teach users how to build their own social media app from the ground up.
 
 ---------------
 
