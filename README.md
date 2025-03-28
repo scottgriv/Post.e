@@ -23,12 +23,14 @@
 
 <img src="./docs/images/phone_feed.gif" width="19%" height="19%"/><img src="./docs/images/phone_post.gif" width="19.1%" height="19%"/><img src="./docs/images/phone_splash.png" width="18.3%" height="18.3%"/><img src="./docs/images/phone_profile.gif" width="19.05%" height="19%"/><img src="./docs/images/phone_interaction.gif" width="19.05%" height="19%"/>
 
+<h2 align="center">What is Post.e?</h2>
 
-- A mobile application written in Swift & Objective-C for the front-end and multiple back-end languages such as PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl.
-- Create a user profile, follow other users, and post messages similar to Twitter/X. 
-- Share content with other users by attaching photos, videos, documents, and files to your Posts. 
-- Includes a back-end MySQL database, JSON interchange, and multiple out of the box APIs.
-- Designed to teach people how to build their own social media app in mind.
+- **Post.e** is an open source iOS mobile application built using Swift and Objective-C for the client side.
+- Users can create profiles, follow others, and post messages similar to Twitter/X.
+- Supports media-rich posts with photos, videos, documents, and file attachments.
+- Supports multiple server-side languages, including PHP, Python, Node.js, Ruby, Go, Java, Rust, and Perl.
+- Powered by a MySQL-compatible MariaDB database, with JSON-based data interchange and built-in API support.
+- Designed to teach users how to build their own social media app from the ground up.
 
 ---------------
 
