@@ -283,18 +283,18 @@ Here are some definitions to help you understand the terminology used in this do
 - Run the **Post.e** app in `Xcode` located in the `mobile/ios` folder.
     - Wait for the required packages to download in Swift Package Manager (SPM).
     - **Post.e** was tested with the following devices/simulators:
-        > iPhone 14 Pro Max
-        > iPhone 14 Plus
-        > Apple Watch Series 8 (41mm)
-        > Apple Watch Series 8 (45mm)
-        > More Devices to be added in the future (layouts may vary due to constraint issues depending on your unsupported Device)
+        - iPhone 14 Pro Max
+        - iPhone 14 Plus
+        - Apple Watch Series 8 (41mm)
+        - Apple Watch Series 8 (45mm)
+        - More Devices to be added in the future (layouts may vary due to constraint issues depending on your unsupported Device)
     - The minimum deployment targets for **Post.e** are as follows:
-        > iOS **15.6**
-        > watchOS **9.1**
+        - **iOS:** 15.6
+        - **watchOS:** 9.1
 - Login with the following:
     - If you're using the Demo database, login with the following credentials: 
-        > **User:** Demo123
-        > **Password:** appdev123
+        - **User:** Demo123
+        - **Password:** appdev123
     - If you're using the empty database, you will have to build up the app database by registering new users.
 - Click Login! Enjoy!
 
