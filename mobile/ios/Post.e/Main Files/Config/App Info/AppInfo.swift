@@ -41,7 +41,7 @@ struct AppInfo {
     
     var aboutContactEmail : String { return "scott.grivner@gmail.com" }
     
-    var aboutContactWebsite : String { return "scottgrivner.dev" }
+    var aboutContactWebsite : String { return "linktr.ee/scottgriv" }
     
     var currentYear : String {
         let now = Date()
